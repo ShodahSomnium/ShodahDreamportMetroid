@@ -1,0 +1,94 @@
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit 0 (project D:\Dreamport\Metroid Prime\METROIDPRIME\DevTools\labproject)
+522:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+627:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumMetroid] Metroid Prime Dreamport Iteration 1.2 (2026-10-17) - Iteration 1.2 (the frigate playable): the animated arm cannon (each beam's own shape, shoot, charge, missile hatch, beam change and fidgets, the suit forearm, closed from behind), the METROID PRIME tablet app (HUD distance, size, height, opacity; cannon fit; sound; save, load, rooms), enemies and the Parasite Queen, cutscenes on a cinema screen, elevators, the morph ball, pickups, save station, the escape countdown.
+[SomniumMetroid] Disc: D:\Dreamport\Metroid Prime\ISO\Metroid Prime (Europe) (En,Fr,De,Es,It).ciso (GM8P01)
+[SomniumMetroid] Disc: 22286 resources in 18 archives (GM8P01, PAL), world 'Metroid1.pak' with 28 areas, read in 166 ms
+[SomniumMetroid] Scripts: area 0 'Exterior Docking Hangar': 771 entities, 135 models placed
+[SomniumMetroid] World: area 0 'Exterior Docking Hangar' ready: 544 models, 4456 collision triangles, 1028 script objects, 157 new textures, 39 actor models; parsed in 272 ms, built over 247 ms
+[SomniumMetroid] Visors: thermal palette 16 colours, x-ray palette 256 colours
+[SomniumMetroid] Sound: 72 sound groups, 3173 effects, lookup 5245
+[SomniumMetroid] Start: area 0 'Exterior Docking Hangar', spawn at game (-87.86, 224.89, 0.50) facing -179 deg
+[SomniumMetroid] Samus: energy 99, missiles 15/15, beams Power Ice Wave Plasma (all beams and visors unlocked for testing)
+[SomniumMetroid] Gun: GunRes names 43; Power CMDL 19AE626C shot 120 u/s (Power: 20 animations (18 ANIMs), 50 bones); Ice CMDL 19AE626C shot 48 u/s (Ice: 20 animations (20 ANIMs), 50 bones); Wave CMDL 19AE626C shot 120 u/s (Wave: 20 animations (20 ANIMs), 50 bones); Plasma CMDL 19AE626C shot 120 u/s (Plasma: 20 animations (20 ANIMs), 50 bones)
+[SomniumMetroid] Gun effects: 30 textures, 10 models
+[SomniumMetroid] HUD: built from the game's frames (7 frames: FRME_BaseHud, FRME_CombatHud, FRME_Helmet, FRME_ScanHud, FRME_ThermalHud, FRME_XRayHudNew, FRME_ScanHudFlat)
+[SomniumMetroid] Reticle: the game's combat reticle (13 models, 14 charge ticks, blends SrcAlpha+One) for the monitor view
+[SomniumMetroid] Tablet: searching for the Somnium tablet (the "METROID PRIME" app goes on its home screen; VR: tap Y, monitor: Tab).
+[SomniumMetroid] Start: player placed at (-57.99, 1000.38, 148.42) (editor: CharacterController 'PlayerController' moved)
+[SomniumMetroid] World: sky A12B691E built (model radius 68 m, drawn out at 0.8 x the far plane, after the opaque world)
+LAB: game running: area 0 'Exterior Docking Hangar'
+[SomniumMetroid] Cinema: skipped
+[SomniumMetroid] Scripts: area 1 'Air Lock': 118 entities, 21 models placed
+[SomniumMetroid] World: area 1 'Air Lock' ready: 79 models, 424 collision triangles, 137 script objects, 14 new textures, 8 actor models; parsed in 7 ms, built over 24 ms
+LAB: DT 1A 00000120 'Trigger_DoorUnlock-component' active True health 1/1 box (21.79, 75.20, 6.95) size (4.50, 0.25, 4.00) vuln 1,1,1,1,1,1,2,2,1,3,2,2,2,2,2 collider True layer 10 active True
+LAB:   invulnerable False
+LAB:     sends state 31 -> msg 13 to 15 000003A4 'Relay Weapon Ineffective (Trigger_DoorKey [IN] here)'
+LAB:     sends state 14 -> msg 4 to 00 00000122 'Actor_DoorShield-component'
+LAB:     sends state 7 -> msg 1 to 00 00000122 'Actor_DoorShield-component'
+LAB:     sends state 14 -> msg 1 to 04 00000121 'Trigger_DoorOpen-component-component'
+LAB:     sends state 14 -> msg 13 to 03 0000011F 'Door_Area-component'
+LAB:     gets msg 4 on state 8 from 03 0000011F 'Door_Area-component'
+LAB:     gets msg 4 on state 7 from 03 0000011F 'Door_Area-component'
+LAB:     gets msg 1 on state 9 from 15 00000124 'Relay_Unlock'
+LAB:   side 1: clear
+LAB:   ray from the eye: Door box Door_Area-component @3.53; Door box Door_Area-component @3.53; Damageable Trigger_DoorUnlock-component @3.88; Damageable Trigger_DoorUnlock-component @4.17; Door box Door_Area-component @25.77; Damageable Trigger_DoorUnlock-component @26.12; 
+[SomniumMetroid] Scripts: 1A 00000120 'Trigger_DoorUnlock-component' [14] -> 00 00000122 'Actor_DoorShield-component' msg 4
+[SomniumMetroid] Scripts: 1A 00000120 'Trigger_DoorUnlock-component' [14] -> 04 00000121 'Trigger_DoorOpen-component-component' msg 1
+[SomniumMetroid] Scripts: 1A 00000120 'Trigger_DoorUnlock-component' [14] -> 03 0000011F 'Door_Area-component' msg 13
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 03 0000011F 'Door_Area-component' [8] -> 0B 00000004 'Dock' msg 7
+[SomniumMetroid] Scripts: 03 0000011F 'Door_Area-component' [8] -> 17 0400029D 'HUDMemo door message' msg 4
+[SomniumMetroid] Scripts: 03 0000011F 'Door_Area-component' [8] -> 04 00000121 'Trigger_DoorOpen-component-component' msg 1
+[SomniumMetroid] Scripts: 03 0000011F 'Door_Area-component' [8] -> 05 00000123 'Timer_DoorClose-component-component' msg 14
+[SomniumMetroid] Scripts: 03 0000011F 'Door_Area-component' [8] -> 1A 00000120 'Trigger_DoorUnlock-component' msg 4
+[SomniumMetroid] Scripts: 03 0000011F 'Door_Area-component' [8] -> 00 00000122 'Actor_DoorShield-component' msg 4
+[SomniumMetroid] Scripts: 03 00010022 'Door_Area-component' [7] -> 15 00010009 'Relay Make Door Solid' msg 13
+[SomniumMetroid] Scripts: 03 00010022 'Door_Area-component' [7] -> 00 00010025 'Actor_DoorShield-component' msg 4
+[SomniumMetroid] Scripts: 03 00010022 'Door_Area-component' [7] -> 1A 00010023 'Trigger_DoorUnlock-component' msg 4
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 15 00010009 'Relay Make Door Solid' [9] -> 03 0001001C 'Door_Area-component' msg 13
+[SomniumMetroid] Scripts: 15 00010009 'Relay Make Door Solid' [9] -> 1A 0001001D 'Trigger_DoorUnlock-component' msg 4
+[SomniumMetroid] Scripts: 15 00010009 'Relay Make Door Solid' [9] -> 00 0001001F 'Actor_DoorShield-component' msg 4
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 05 00000123 'Timer_DoorClose-component-component' msg 11
+[SomniumMetroid] Scripts: 04 00000121 'Trigger_DoorOpen-component-component' [6] -> 03 0000011F 'Door_Area-component' msg 9

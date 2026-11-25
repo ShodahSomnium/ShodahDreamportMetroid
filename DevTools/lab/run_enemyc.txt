@@ -1,0 +1,95 @@
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit 0 (project D:\Dreamport\Metroid Prime\METROIDPRIME\DevTools\labproject)
+505:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+610:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+9886:SomniumSpace.Worlds.SomniumMetroid.Game.MpAudio/<>c__DisplayClass61_0:<Decode>b__1 (object,System.Exception) (at Assets/#User/SomniumMetroid/Game/Audio/MpAudio.cs:817)
+[SomniumMetroid] Metroid Prime Dreamport Iteration 1.4 (2026-10-19) - Iteration 1.4: Samus's speed, jump and gravity on your avatar (measured and matched), wrist mode hides only the hand; the frigate ending and the world switch to Tallon IV (Landing Site, upgrades lost), the Chozo Ruins up to the Hive Totem boss, Beetles, War Wasps, Eyeballs, Fire Fleas and Geemers. 1.3: morph ball bombs and bomb jumps, the morph ball in third person (your avatar hidden), your avatar's right hand hidden in the cannon (wrist or forearm), every animation's last pose (doors open fully), the save station gives the controls back, debris breaks to a charge. 1.2 (the frigate playable): the animated arm cannon (each beam's own shape, shoot, charge, missile hatch, beam change and fidgets, the suit forearm, closed from behind), the METROID PRIME tablet app (HUD distance, size, height, opacity; cannon fit; sound; save, load, rooms), enemies and the Parasite Queen, cutscenes on a cinema screen, elevators, the morph ball, pickups, save station, the escape countdown.
+[SomniumMetroid] Disc: D:\Dreamport\Metroid Prime\ISO\Metroid Prime (Europe) (En,Fr,De,Es,It).ciso (GM8P01)
+[SomniumMetroid] Disc: 22286 resources in 18 archives (GM8P01, PAL), world 'Metroid1.pak' with 28 areas, read in 196 ms
+[SomniumMetroid] Parasite Queen: health 500, bar max 480 'Parasite Queen', min turn 45, beam damage 0.2 x60/s, contact fx 8F32DAC3, textures 256B7E0C/BA154C1B, Parasite_queen: 20 animations (20 ANIMs), 67 bones, head bone True, mouth True
+[SomniumMetroid] Ring controller 3A 00190066 'SpecialFunction Intro Boss Ring Controller': 5 rings of 5 targets, 16 deg/s, scramble 350..600
+[SomniumMetroid] Scripts: area 25 'Reactor Core': 299 entities, 26 models placed
+[SomniumMetroid] World: area 25 'Reactor Core' ready: 121 models, 1656 collision triangles, 305 script objects, 130 new textures, 13 actor models; parsed in 495 ms, built over 223 ms
+[SomniumMetroid] Visors: thermal palette 16 colours, x-ray palette 256 colours
+[SomniumMetroid] Sound: 72 sound groups, 3173 effects, lookup 5245
+[SomniumMetroid] Start: area 25 'Reactor Core', spawn at game (184.25, -274.68, -86.72) facing -180 deg
+[SomniumMetroid] Samus: energy 99, missiles 15/15, beams Power Ice Wave Plasma (all beams and visors unlocked for testing)
+[SomniumMetroid] Gun: GunRes names 43; Power CMDL 19AE626C shot 120 u/s (Power: 20 animations (18 ANIMs), 50 bones); Ice CMDL 19AE626C shot 48 u/s (Ice: 20 animations (20 ANIMs), 50 bones); Wave CMDL 19AE626C shot 120 u/s (Wave: 20 animations (20 ANIMs), 50 bones); Plasma CMDL 19AE626C shot 120 u/s (Plasma: 20 animations (20 ANIMs), 50 bones)
+[SomniumMetroid] Gun effects: 40 textures, 19 models
+[SomniumMetroid] HUD: built from the game's frames (7 frames: FRME_BaseHud, FRME_CombatHud, FRME_Helmet, FRME_ScanHud, FRME_ThermalHud, FRME_XRayHudNew, FRME_ScanHudFlat)
+[SomniumMetroid] Reticle: the game's combat reticle (13 models, 14 charge ticks, blends SrcAlpha+One) for the monitor view
+[SomniumMetroid] Tablet: searching for the Somnium tablet (the "METROID PRIME" app goes on its home screen; VR: tap Y, monitor: Tab).
+[SomniumMetroid] Start: player placed at (121.61, 942.82, -181.29) (editor: CharacterController 'PlayerController' moved)
+LAB: game running: area 25 'Reactor Core'
+[SomniumMetroid] Scripts: area 27 'Reactor Core Entrance': 222 entities, 32 models placed
+[SomniumMetroid] World: area 27 'Reactor Core Entrance' ready: 140 models, 1040 collision triangles, 222 script objects, 87 new textures, 16 actor models; parsed in 145 ms, built over 79 ms
+[SomniumMetroid] Scripts: area 21 'Deck Gamma Monitor Hall': 230 entities, 125 models placed
+[SomniumMetroid] World: area 21 'Deck Gamma Monitor Hall' ready: 40 models, 508 collision triangles, 230 script objects, 60 new textures, 11 actor models; parsed in 39 ms, built over 91 ms
+LAB: queen 0E 00190004 'NewIntroBoss': state Patrol prog 0 stage 0 hp 500.0/500 attackT 8.0 turning False yaw 0 anim 2 t 0.00/2.47 beam off active False dead False gone False; ring controller rings Stopped reverse True; Platform_4 z -70.8 yaw 7 speed 16 (inactive); Platform_3 z -70.8 yaw 7 speed 16 (inactive); Platform_2 z -70.8 yaw 7 speed 16 (inactive); Platform_1 z -70.8 yaw 7 speed 16 (inactive); Platform_0 z -70.8 yaw 7 speed 16 (inactive)
+LAB: queen 'Parasite Queen' bar max 480 health 500 at (184.9, -337.8, -108.6) head (184.9, -337.8, -108.6) pelvis (184.9, -337.8, -108.6)
+LAB: spawn 'Spawn point - End of Queen Intro Cinematic' (184.0, -300.6, -100.4)
+LAB: spawn 'Spawn point - End of Queen Death Cinematic' (166.9, -318.9, -100.7)
+LAB: spawn 'Spawn point - Entrance' (184.3, -274.7, -86.7) (default)
+LAB: spawn 'Spawn point' (210.7, -255.8, -86.2)
+LAB: spawn 'Spawn point -- Initial room spawn' (207.5, -256.1, -86.2) (default)
+LAB: spawn 'Spawn point' (137.2, -312.3, -99.1) (default)
+LAB: wrote enemyc_0_start.png
+LAB: wrote enemyc_0_wide.png
+LAB: queen inactive after 8 s: doing the intro's end by hand
+LAB: sent msg 1 to 'Platform_0'
+LAB: sent msg 1 to 'Platform_1'
+LAB: sent msg 1 to 'Platform_2'
+LAB: sent msg 1 to 'Platform_3'
+LAB: sent msg 1 to 'Platform_4'
+LAB: sent msg 13 to 'Relay Skip Rings'
+LAB: sent msg 13 to 'Relay End Intro Cinematic'
+[SomniumMetroid] Parasite Queen: activated by 15 001900AB 'Relay End Intro Cinematic'
+[SomniumMetroid] Parasite Queen: Patrol (health 500/500, stage 0)
+LAB: queen active True: state Patrol prog 0 stage 0 hp 500.0/500 attackT 8.0 turning False yaw 0 anim 2 t 0.02/2.47 beam off active True dead False gone False
+LAB: rings Stopped reverse True; Platform_4 z -104.9 yaw 131 speed 16; Platform_3 z -99.7 yaw 131 speed 16; Platform_2 z -94.5 yaw 131 speed 16; Platform_1 z -89.4 yaw 131 speed 16; Platform_0 z -84.2 yaw 131 speed 16
+LAB: t 0.0 queen state Patrol prog 0 stage 0 hp 500.0/500 attackT 8.0 turning False yaw 0 anim 2 t 0.02/2.47 beam off active True dead False gone False
+LAB:     rings Stopped reverse True; Platform_4 z -104.9 yaw 131 speed 16; Platform_3 z -99.7 yaw 131 speed 16; Platform_2 z -94.5 yaw 131 speed 16; Platform_1 z -89.4 yaw 131 speed 16; Platform_0 z -84.2 yaw 131 speed 16
+LAB: t 2.5 queen state Patrol prog 0 stage 0 hp 500.0/500 attackT 5.5 turning False yaw 0 anim 2 t 0.05/2.47 beam off active True dead False gone False
+LAB:     rings Stopped reverse True; Platform_4 z -104.9 yaw 171 speed 16; Platform_3 z -99.7 yaw 171 speed 16; Platform_2 z -94.5 yaw 171 speed 16; Platform_1 z -89.4 yaw 171 speed 16; Platform_0 z -84.2 yaw 171 speed 16
+LAB: t 5.0 queen state Patrol prog 0 stage 0 hp 500.0/500 attackT 3.0 turning False yaw 0 anim 2 t 0.08/2.47 beam off active True dead False gone False
+LAB:     rings Stopped reverse True; Platform_4 z -104.9 yaw -149 speed 16; Platform_3 z -99.7 yaw -149 speed 16; Platform_2 z -94.5 yaw -149 speed 16; Platform_1 z -89.4 yaw -149 speed 16; Platform_0 z -84.2 yaw -149 speed 16
+LAB: t 7.5 queen state Patrol prog 0 stage 0 hp 500.0/500 attackT 0.5 turning False yaw 0 anim 2 t 0.12/2.47 beam off active True dead False gone False
+LAB:     rings Stopped reverse True; Platform_4 z -104.9 yaw -109 speed 16; Platform_3 z -99.7 yaw -109 speed 16; Platform_2 z -94.5 yaw -109 speed 16; Platform_1 z -89.4 yaw -109 speed 16; Platform_0 z -84.2 yaw -109 speed 16
+[SomniumMetroid] Parasite Queen: Attack (health 500/500, stage 0)
+LAB: t 10.0 queen state Attack prog 2 stage 0 hp 500.0/500 attackT 0.0 turning False yaw 0 anim 3 t 2.02/3.70 beam off active True dead False gone False
+LAB:     rings Stopped reverse True; Platform_4 z -104.9 yaw -69 speed 16; Platform_3 z -99.7 yaw -69 speed 16; Platform_2 z -94.5 yaw -69 speed 16; Platform_1 z -89.4 yaw -69 speed 16; Platform_0 z -84.2 yaw -69 speed 16
+[SomniumMetroid] Parasite Queen: beam on from LCTR_INTROMOUTH at (184.0, -300.6, -99.8), 12.0/s
+LAB: wrote enemyc_1_beam.png
+LAB: wrote enemyc_1_beam_side.png
+[SomniumMetroid] Parasite Queen: beam off after 0.95 s, on Samus 233 frames, damage 9.0
+[SomniumMetroid] Tablet: not linked after 20 s - no transform with a TabletControl component, and none named 'Tablet.XR(...' or 'Tablet.NonXR(...', in MasterScene (NOT loaded) or 1 other loaded scene(s); 'Simulator' objects (remote tablets) and the world's own subtrees skipped; still searching every 0.5 s; 40 searches, slowest 4.6 ms. The game plays with the options of options.txt.
+[SomniumMetroid] Parasite Queen: Patrol (health 500/500, stage 0)
+LAB: t 12.5 queen state Patrol prog 0 stage 0 hp 500.0/500 attackT 5.6 turning False yaw 0 anim 2 t 0.70/2.47 beam on state 4 from (184.1, -330.3, -86.9) dir (0.00, 0.92, -0.40) end (184.0, -301.0, -99.6) on Samus True active True dead False gone False
+LAB:     rings Stopped reverse True; Platform_4 z -104.9 yaw -30 speed 16; Platform_3 z -99.7 yaw -30 speed 16; Platform_2 z -94.5 yaw -30 speed 16; Platform_1 z -89.4 yaw -30 speed 16; Platform_0 z -84.2 yaw -30 speed 16
+LAB: t 15.0 queen state Patrol prog 0 stage 0 hp 500.0/500 attackT 3.1 turning False yaw 0 anim 2 t 0.73/2.47 beam off active True dead False gone False
+LAB:     rings Stopped reverse True; Platform_4 z -104.9 yaw 10 speed 16; Platform_3 z -99.7 yaw 10 speed 16; Platform_2 z -94.5 yaw 10 speed 16; Platform_1 z -89.4 yaw 10 speed 16; Platform_0 z -84.2 yaw 10 speed 16
+[SomniumMetroid] Ring controller: scramble 1
+LAB: t 17.5 queen state Patrol prog 0 stage 0 hp 500.0/500 attackT 0.6 turning False yaw 0 anim 2 t 0.77/2.47 beam off active True dead False gone False
+LAB:     rings Scramble reverse False; Platform_4 z -104.9 yaw 80 speed -570; Platform_3 z -99.7 yaw 100 speed 486; Platform_2 z -94.5 yaw 27 speed -442; Platform_1 z -89.4 yaw -143 speed 385; Platform_0 z -84.2 yaw -32 speed -467
+[SomniumMetroid] Parasite Queen: Attack (health 500/500, stage 0)
+LAB: t 20.0 queen state Attack prog 2 stage 0 hp 500.0/500 attackT 0.0 turning False yaw 0 anim 3 t 1.90/3.70 beam off active True dead False gone False
+LAB:     rings Scramble reverse False; Platform_4 z -104.9 yaw 94 speed -570; Platform_3 z -99.7 yaw -125 speed 486; Platform_2 z -94.5 yaw 0 speed -442; Platform_1 z -89.4 yaw 100 speed 385; Platform_0 z -84.2 yaw -119 speed -467
+[SomniumMetroid] Parasite Queen: beam on from LCTR_INTROMOUTH at (184.0, -300.6, -99.8), 12.0/s
+[SomniumMetroid] Ring controller: line up, away from Samus (0.03, -1.00, 0.00)
+[SomniumMetroid] Parasite Queen: beam off after 0.95 s, on Samus 549 frames, damage 17.9
+[SomniumMetroid] Parasite Queen: Patrol (health 500/500, stage 0)
+[SomniumMetroid] Ring controller: lined up (MaxReached)
+LAB: wrote enemyc_2_rings_aligned.png
+LAB: t 22.6 queen state Patrol prog 0 stage 0 hp 500.0/500 attackT 6.5 turning False yaw 0 anim 2 t 0.75/2.47 beam on state 4 from (184.1, -330.3, -86.9) dir (0.00, 0.92, -0.40) end (184.0, -301.0, -99.6) on Samus True active True dead False gone False
+LAB:     rings Stopped reverse False; Platform_4 z -104.9 yaw 158 speed -16; Platform_3 z -99.7 yaw 158 speed -16; Platform_2 z -94.5 yaw 158 speed -16; Platform_1 z -89.4 yaw 158 speed -16; Platform_0 z -84.2 yaw 158 speed -16
+LAB: t 25.1 queen state Patrol prog 0 stage 0 hp 500.0/500 attackT 4.0 turning False yaw 0 anim 2 t 0.78/2.47 beam off active True dead False gone False
+LAB:     rings Stopped reverse False; Platform_4 z -104.9 yaw 118 speed -16; Platform_3 z -99.7 yaw 118 speed -16; Platform_2 z -94.5 yaw 118 speed -16; Platform_1 z -89.4 yaw 118 speed -16; Platform_0 z -84.2 yaw 118 speed -16
+LAB: t 27.6 queen state Patrol prog 0 stage 0 hp 500.0/500 attackT 1.5 turning False yaw 0 anim 2 t 0.81/2.47 beam off active True dead False gone False
+LAB:     rings Stopped reverse False; Platform_4 z -104.9 yaw 78 speed -16; Platform_3 z -99.7 yaw 78 speed -16; Platform_2 z -94.5 yaw 78 speed -16; Platform_1 z -89.4 yaw 78 speed -16; Platform_0 z -84.2 yaw 78 speed -16
+[SomniumMetroid] Parasite Queen: Attack (health 500/500, stage 0)
+LAB: t 30.1 queen state Attack prog 2 stage 0 hp 500.0/500 attackT 0.0 turning False yaw 0 anim 3 t 1.05/3.70 beam off active True dead False gone False
+LAB:     rings Stopped reverse False; Platform_4 z -104.9 yaw 38 speed -16; Platform_3 z -99.7 yaw 38 speed -16; Platform_2 z -94.5 yaw 38 speed -16; Platform_1 z -89.4 yaw 38 speed -16; Platform_0 z -84.2 yaw 38 speed -16
+[SomniumMetroid] Parasite Queen: beam on from LCTR_INTROMOUTH at (184.0, -300.6, -99.8), 12.0/s
+[SomniumMetroid] Parasite Queen: beam off after 0.95 s, on Samus 1015 frames, damage 26.9
+LAB: t 32.6 queen state Attack prog 2 stage 0 hp 500.0/500 attackT 6.4 turning False yaw 0 anim 3 t 3.55/3.70 beam on state 3 from (186.0, -330.3, -86.8) dir (-0.06, 0.91, -0.40) end (184.0, -301.0, -99.6) on Samus True active True dead False gone False
+LAB:     rings Stopped reverse False; Platform_4 z -104.9 yaw -2 speed -16; Platform_3 z -99.7 yaw -2 speed -16; Platform_2 z -94.5 yaw -2 speed -16; Platform_1 z -89.4 yaw -2 speed -16; Platform_0 z -84.2 yaw -2 speed -16

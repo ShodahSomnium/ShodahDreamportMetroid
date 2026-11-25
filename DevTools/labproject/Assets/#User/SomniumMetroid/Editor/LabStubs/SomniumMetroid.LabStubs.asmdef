@@ -1,0 +1,21 @@
+{
+    "name": "SomniumMetroid.LabStubs",
+    "rootNamespace": "SomniumSpace.Worlds.SomniumMetroid.LabStubs",
+    "references": [
+        "SomniumMetroid",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "Unity.XR.Interaction.Toolkit"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

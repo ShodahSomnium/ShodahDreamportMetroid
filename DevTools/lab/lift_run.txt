@@ -1,0 +1,55 @@
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit 0 (project D:\Dreamport\Metroid Prime\METROIDPRIME\DevTools\labproject)
+518:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+623:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumMetroid] Metroid Prime Dreamport Iteration 1.1 (2026-10-16) - Iteration 1.1 (gun polish): the game's own gun effects (each beam's shots, trails, impacts with their sounds, muzzle flash, the charge glow and its aux muzzle, timed as on the GameCube), the game's combat reticle on the monitor, shots pass closed doors the way the game lets them (the hangar's upper lock buttons can be shot).
+[SomniumMetroid] Disc: D:\Dreamport\Metroid Prime\ISO\Metroid Prime (Europe) (En,Fr,De,Es,It).ciso (GM8P01)
+[SomniumMetroid] Disc: 22286 resources in 18 archives (GM8P01, PAL), world 'Metroid1.pak' with 28 areas, read in 141 ms
+[SomniumMetroid] Scripts: area 10 'Connection Elevator to Deck Beta': 105 entities, 10 models placed
+[SomniumMetroid] World: area 10 'Connection Elevator to Deck Beta' ready: 104 models, 592 collision triangles, 105 script objects, 67 new textures, 8 actor models; parsed in 139 ms, built over 129 ms
+[SomniumMetroid] Visors: thermal palette 16 colours, x-ray palette 256 colours
+[SomniumMetroid] Sound: 72 sound groups, 3173 effects, lookup 5245
+[SomniumMetroid] Start: area 10 'Connection Elevator to Deck Beta', spawn at game (8.00, -137.73, -0.59) facing -180 deg
+[SomniumMetroid] Samus: energy 99, missiles 5/5, beams Power Ice Wave Plasma (all beams and visors unlocked for testing)
+[SomniumMetroid] Gun: GunRes names 43; Power CMDL 19AE626C shot 120 u/s (Power: 20 animations (18 ANIMs), 50 bones); Ice CMDL 19AE626C shot 48 u/s (Ice: 20 animations (20 ANIMs), 50 bones); Wave CMDL 19AE626C shot 120 u/s (Wave: 20 animations (20 ANIMs), 50 bones); Plasma CMDL 19AE626C shot 120 u/s (Plasma: 20 animations (20 ANIMs), 50 bones)
+[SomniumMetroid] Gun effects: 30 textures, 9 models
+[SomniumMetroid] HUD: built from the game's frames (7 frames: FRME_BaseHud, FRME_CombatHud, FRME_Helmet, FRME_ScanHud, FRME_ThermalHud, FRME_XRayHudNew, FRME_ScanHudFlat)
+[SomniumMetroid] Reticle: the game's combat reticle (13 models, 14 charge ticks, blends SrcAlpha+One) for the monitor view
+[SomniumMetroid] Tablet: searching for the Somnium tablet (the "METROID PRIME" app goes on its home screen; VR: tap Y, monitor: Tab).
+[SomniumMetroid] Start: player placed at (5.28, 999.66, -90.90) (editor: CharacterController 'PlayerController' moved)
+[SomniumMetroid] Enemies: 3D 00080020 'Parasite 1' not prepared: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 00080022 'Parasite 1' not prepared: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 00080177 'Parasite-component-component' not prepared: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 00080178 'Parasite-component-component' not prepared: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 00080179 'Parasite-component-component' not prepared: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 0008018C 'Parasite-component-component' not prepared: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 0008018D 'Parasite-component-component' not prepared: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 0008018E 'Parasite-component-component' not prepared: Index was outside the bounds of the array.
+LAB: game running: area 10 'Connection Elevator to Deck Beta'
+[SomniumMetroid] Enemies: 3D 00080020 'Parasite 1' not made: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 00080022 'Parasite 1' not made: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 00080177 'Parasite-component-component' not made: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 00080178 'Parasite-component-component' not made: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 00080179 'Parasite-component-component' not made: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 0008018C 'Parasite-component-component' not made: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 0008018D 'Parasite-component-component' not made: Index was outside the bounds of the array.
+[SomniumMetroid] Enemies: 3D 0008018E 'Parasite-component-component' not made: Index was outside the bounds of the array.
+[SomniumMetroid] Scripts: area 8 'Map Facility': 210 entities, 15 models placed
+[SomniumMetroid] World: area 8 'Map Facility' ready: 89 models, 1528 collision triangles, 216 script objects, 100 new textures, 11 actor models; parsed in 72 ms, built over 132 ms
+[SomniumMetroid] Scripts: area 12 'Deck Beta Conduit Hall': 150 entities, 7 models placed
+[SomniumMetroid] World: area 12 'Deck Beta Conduit Hall' ready: 99 models, 1324 collision triangles, 150 script objects, 26 new textures, 4 actor models; parsed in 78 ms, built over 78 ms
+LAB: platform 'Platform Elevator' at (10.19, -146.23, -0.59), player (9.98, -146.23, 1.83), carried True, origin (0.00, 1000.00, 0.00)
+LAB: wrote lift_0.png
+LAB: t 2 s: platform (10.19, -146.23, -9.17) player (9.98, -146.23, -6.74) rides 1496 origin (0.00, 1005.66, 0.00)
+LAB: wrote lift_1.png
+LAB: t 4 s: platform (10.19, -146.23, -18.88) player (9.98, -146.23, -16.45) rides 3309 origin (0.00, 1012.07, 0.00)
+LAB: wrote lift_2.png
+LAB: t 6 s: platform (10.19, -146.23, -28.59) player (9.98, -146.23, -26.16) rides 5113 origin (0.00, 1018.48, 0.00)
+LAB: wrote lift_3.png
+LAB: t 8 s: platform (10.19, -146.23, -36.58) player (9.98, -146.23, -34.16) rides 6411 origin (0.00, 1023.75, 0.00)
+LAB: wrote lift_4.png
+LAB: t 10 s: platform (10.19, -146.23, -36.58) player (9.98, -146.23, -34.16) rides 6411 origin (0.00, 1023.75, 0.00)
+LAB: wrote lift_5.png
+LAB: ride over: the platform moved 36.0 units, the player is 2.4 from it, area 10
+LAB: done
+LAB: exit 0

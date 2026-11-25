@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1153416188472176859
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ARS Zoom Opaque
+  m_Shader: {fileID: -6465566751694194690, guid: 0758d1934e80ebf4e893713142bee9d5,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ALPHA_COMBINE_ADD
+  - _ALPHA_SOURCE_RED
+  - _SMOOTHNESS_SOURCE_R
+  m_InvalidKeywords:
+  - _ALPHAMODE_A
+  - _ALPHAMODE_PREMULTIPLY
+  - _ARS_CHANNEL_SMOOTH
+  - _ARS_HUE_SOURCE_ARS_U
+  - _ARS_ROTATE_SOURCE_ARS_U
+  - _BASE_UV_TRANSFORM_ENABLE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 1775c057ca4306e428097037e40cffb7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Highlight_Map:
+        m_Texture: {fileID: 2800000, guid: e725faefa57ce744d931e4d46b195998, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metalic_Smoothness_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ALPHA_COMBINE: 0
+    - _ALPHA_SOURCE: 1
+    - _ARS_1_Depth: 0.3
+    - _ARS_1_Freq: 0
+    - _ARS_2_Depth: 0.7
+    - _ARS_2_Freq: 0.33
+    - _ARS_Rotate_Str: 1
+    - _ARS_Transform_Base: 1
+    - _ARS_Transform_Highlight: 1
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Base_Emissive: 1
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _Metalic_Max: 1
+    - _Metalic_Min: 0
+    - _Normal: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SMOOTHNESS_SOURCE: 0
+    - _Smoothness_Max: 1
+    - _Smoothness_Min: 0
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    - _Zoom_ARS_Gain: 1
+    - _Zoom_Base: 1
+    - _Zoom_Curve: 1
+    - _Zoom_Radius: 1
+    m_Colors:
+    - _ARS_HSV_Gain: {r: 0, g: 0, b: 0, a: 0}
+    - _ARS_HSV_Min: {r: 1, g: 1, b: 1, a: 0}
+    - _Base_Color: {r: 0.1924528, g: 0.02024232, b: 0.01851904, a: 0}
+    - _HSV_Source_Add: {r: 0, g: 0, b: 0, a: 0}
+    - _HSV_Source_Mul: {r: 1, g: 1, b: 1, a: 0}
+    - _Highlight_Color: {r: 3.577358, g: 2.004121, b: 0.425233, a: 0}
+    - _Move_ARS_UV: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _Rotate_Center: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Specular_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

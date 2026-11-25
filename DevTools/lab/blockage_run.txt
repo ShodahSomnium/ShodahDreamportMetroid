@@ -1,0 +1,31 @@
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit 0 (project D:\Dreamport\Metroid Prime\METROIDPRIME\DevTools\labproject)
+515:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+620:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumMetroid] Metroid Prime Dreamport Iteration 1.2 (2026-10-17) - Iteration 1.2 (the frigate playable): the animated arm cannon (each beam's own shape, shoot, charge, missile hatch, beam change and fidgets, the suit forearm, closed from behind), the METROID PRIME tablet app (HUD distance, size, height, opacity; cannon fit; sound; save, load, rooms), enemies and the Parasite Queen, cutscenes on a cinema screen, elevators, the morph ball, pickups, save station, the escape countdown.
+[SomniumMetroid] Disc: D:\Dreamport\Metroid Prime\ISO\Metroid Prime (Europe) (En,Fr,De,Es,It).ciso (GM8P01)
+[SomniumMetroid] Disc: 22286 resources in 18 archives (GM8P01, PAL), world 'Metroid1.pak' with 28 areas, read in 211 ms
+[SomniumMetroid] Scripts: area 6 'Deck Alpha Umbilical Hall': 67 entities, 8 models placed
+[SomniumMetroid] World: area 6 'Deck Alpha Umbilical Hall' ready: 63 models, 964 collision triangles, 67 script objects, 35 new textures, 6 actor models; parsed in 184 ms, built over 124 ms
+[SomniumMetroid] Visors: thermal palette 16 colours, x-ray palette 256 colours
+[SomniumMetroid] Sound: 72 sound groups, 3173 effects, lookup 5245
+[SomniumMetroid] Start: area 6 'Deck Alpha Umbilical Hall', spawn at game (8.36, -67.79, 0.11) facing -161 deg
+[SomniumMetroid] Samus: energy 99, missiles 5/5, beams Power Ice Wave Plasma (all beams and visors unlocked for testing)
+[SomniumMetroid] Gun: GunRes names 43; Power CMDL 19AE626C shot 120 u/s (Power: 20 animations (18 ANIMs), 50 bones); Ice CMDL 19AE626C shot 48 u/s (Ice: 20 animations (20 ANIMs), 50 bones); Wave CMDL 19AE626C shot 120 u/s (Wave: 20 animations (20 ANIMs), 50 bones); Plasma CMDL 19AE626C shot 120 u/s (Plasma: 20 animations (20 ANIMs), 50 bones)
+[SomniumMetroid] Gun effects: 28 textures, 9 models
+[SomniumMetroid] HUD: built from the game's frames (7 frames: FRME_BaseHud, FRME_CombatHud, FRME_Helmet, FRME_ScanHud, FRME_ThermalHud, FRME_XRayHudNew, FRME_ScanHudFlat)
+[SomniumMetroid] Reticle: the game's combat reticle (13 models, 14 charge ticks, blends SrcAlpha+One) for the monitor view
+[SomniumMetroid] Tablet: searching for the Somnium tablet (the "METROID PRIME" app goes on its home screen; VR: tap Y, monitor: Tab).
+[SomniumMetroid] Start: player placed at (5.52, 1000.12, -44.74) (editor: CharacterController 'PlayerController' moved)
+LAB: game running: area 6 'Deck Alpha Umbilical Hall'
+[SomniumMetroid] Scripts: area 4 'Emergency Evacuation Area': 269 entities, 11 models placed
+[SomniumMetroid] World: area 4 'Emergency Evacuation Area' ready: 169 models, 7396 collision triangles, 269 script objects, 128 new textures, 2 actor models; parsed in 461 ms, built over 166 ms
+LAB: blockage at (15.65, -84.42, 2.75), health 1, front actor shown
+[SomniumMetroid] Scripts: area 8 'Map Facility': 210 entities, 15 models placed
+[SomniumMetroid] World: area 8 'Map Facility' ready: 89 models, 1528 collision triangles, 216 script objects, 80 new textures, 11 actor models; parsed in 205 ms, built over 68 ms
+LAB: wrote blockage_0.png
+LAB: normal shot: health 1 -> 1, dead False, last hit Platform collision @(10.33, 1001.82, -55.72) on 08 0006001A 'Platform collision' (took 2.0)
+LAB: charged shot: health -49, dead True, platform active False, front actor hidden, last hit Platform collision @(10.33, 1001.82, -55.72) on 08 0006001A 'Platform collision' (took 50.0)
+LAB: wrote blockage_1.png
+LAB: done
+LAB: exit 0

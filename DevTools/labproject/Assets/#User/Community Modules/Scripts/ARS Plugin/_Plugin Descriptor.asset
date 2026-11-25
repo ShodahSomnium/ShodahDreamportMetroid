@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349264242e6089c44b9278d0bc2e8637, type: 3}
+  m_Name: _Plugin Descriptor
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::ModuleDescriptor
+  Name: ARS Plugin
+  Author: Denevraut
+  Version: 4.0.0
+  DateVersion: 18/10/2026
+  Notes: "4.0.0 - Community Modules 4.0 (Photon Fusion 2.1.3).\n- Late joiners apply the synced audio source.\n- Microphone-only setups work (no video player needed)."
+  Scripts:
+  - {fileID: 11500000, guid: 3c93c8da7f2a6954aa5ad2bd1563249d, type: 3}
+  - {fileID: 11500000, guid: 09a6d071c015eab4a9d43064638ea88e, type: 3}
+  - {fileID: 11500000, guid: cd2040b9c6bd22d45a0178145fc26a58, type: 3}
+  - {fileID: 11500000, guid: 885ae106a7118654298f97008c9c1c2e, type: 3}
+  - {fileID: 11500000, guid: 1a8bce1b1aa35ee4facadb69bb2f754c, type: 3}
+  - {fileID: 11500000, guid: 876e57e03ebf17042bd079a92835b7c7, type: 3}
+  - {fileID: 11500000, guid: a1ed70858946e1c48865e83fc3805c5c, type: 3}
+  - {fileID: 11500000, guid: b4cc0779091fe4741a278e2141443fc9, type: 3}
+  - {fileID: 11500000, guid: a950258f3ffa0ed448091f0eef67e634, type: 3}
+  - {fileID: 11500000, guid: a8f96538104cc2c41974ad05b170ed36, type: 3}
+  - {fileID: 11500000, guid: 212c4ab5a2e35d94a97fc41fd53f18ac, type: 3}
+  - {fileID: 11500000, guid: d45575708575a8247a089bee137201ef, type: 3}
+  - {fileID: 11500000, guid: 5a2b7b359a1220341b141796bdee3980, type: 3}
+  - {fileID: 11500000, guid: 3ec7a2156d9d78d48863b62ebfe76ba1, type: 3}
+  - {fileID: 11500000, guid: 3101224ddfa5d6f49bb5ab76d9122e5f, type: 3}
+  Dependencies:
+  - {fileID: 11400000, guid: 4fc60100cc15ec545b9b42a2b7636117, type: 2}

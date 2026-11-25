@@ -1,0 +1,227 @@
+using Fusion;
+using System.Collections;
+using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
+
+namespace CommunityModules
+{
+    /// <summary>
+    ///     This component is used to transfer network control of an object to the last player that grabbed it.
+    /// </summary>
+    [HelpURL("https://incrediworlds.gitbook.io/somnium-space-dendoc/worlds-creation/community-modules/community-networking")]
+    public class NetworkGrabbable : MonoBehaviour
+    {
+        [Header("Version [2026, 10, 15]")]
+        [SerializeField] private XRGrabInteractable _grabInteracable;
+        // Field name kept from the NetworkRigidbody3D era so existing scenes and prefabs keep their reference
+        [SerializeField] private NetworkTransform _networkRigidbody;
+        [SerializeField] private Rigidbody _rigidbody;
+        [Tooltip("Time before moved object respawn, 0 == disabled.")]
+        [SerializeField] private float _respawnDelay = 0.0f;
+        [Tooltip("Detach this object from its parent when the scene loads (world position is kept). " +
+            "NetworkTransform syncs the local position and grabbing unparents the object, " +
+            "so a parented object would appear offset for other players.")]
+        [SerializeField] private bool _detachFromParent = true;
+
+        private const float TIMEOUT = 2.0f;
+
+        // Starts true so the object is treated as held until it is first released.
+        // Respawn only ever applies to an object a player has let go of, and the
+        // respawn timer starts running in Awake, so a false here would make an
+        // untouched object eligible to respawn as soon as the delay elapsed.
+        private bool _isGrabbed = true;
+        private Vector3 _lastPosition;
+        private Quaternion _lastRotation;
+        private Vector3 _lastScale;
+        private bool _isKinematic;
+
+        private Vector3 _spawnPosition;
+        private Quaternion _spawnRotation;
+        private float _grabReleaseTime;
+
+        public bool IsGrabbed => _isGrabbed;
+        public bool IsMine => _networkRigidbody != null && _networkRigidbody.HasStateAuthority;
+
+        private void Awake()
+        {
+            DetachFromParent();
+
+            if (_grabInteracable == null)
+            {
+                Debug.LogError($"[{nameof(NetworkGrabbable)}] GrabInteracable reference is Null.");
+                return;
+            }
+
+            // Get components in case they have not been assigned in the inspector
+            if (_networkRigidbody == null)
+                _networkRigidbody = _grabInteracable.GetComponent<NetworkTransform>();
+
+            // Validate components
+            if (_rigidbody == null || _networkRigidbody == null)
+            {
+                Debug.LogError($"[{nameof(NetworkGrabbable)}] An inspector reference is Null.");
+                return;
+            }
+
+            _lastPosition = _rigidbody.transform.position;
+            _lastRotation = _rigidbody.transform.rotation;
+            _isKinematic = _rigidbody.isKinematic;
+
+            // Connect Grab event
+            _grabInteracable.firstSelectEntered.AddListener(OnGrabbed);
+            _grabInteracable.firstHoverEntered.AddListener(OnHover);
+            _grabInteracable.lastSelectExited.AddListener(OnUngrabbed);
+
+            // Respawn
+            _spawnPosition = _rigidbody.position;
+            _spawnRotation = _rigidbody.rotation;
+            _grabReleaseTime = Time.unscaledTime;
+            InvokeRepeating(nameof(SlowUpdate), Random.Range(0.0f, 1.0f), 1.0f);
+        }
+
+        private void OnDestroy()
+        {
+            if (_grabInteracable != null)
+            {
+                // Disconnect Grab event
+                _grabInteracable.firstSelectEntered.RemoveListener(OnGrabbed);
+                _grabInteracable.firstHoverEntered.RemoveListener(OnHover);
+                _grabInteracable.lastSelectExited.RemoveListener(OnUngrabbed);
+            }
+        }
+
+        /// <summary>
+        ///     Detach this object from its parent, keeping its world position. Called in Awake, and by SceneNetworking
+        ///     for objects that are inactive when the scene loads, before the network objects are registered.
+        /// </summary>
+        public void DetachFromParent()
+        {
+            if (!_detachFromParent || transform.parent == null)
+                return;
+            if (GetComponent<NetworkObject>() == null)
+                return; // Only a network object root can be detached
+            if (transform.parent.GetComponentInParent<NetworkObject>(true) != null)
+            {
+                Debug.LogWarning($"[{nameof(NetworkGrabbable)}] {name} is nested in another NetworkObject and cannot be detached.");
+                return;
+            }
+            transform.SetParent(null, true);
+        }
+
+        // Request control of the object over networking
+        public void RequestControl()
+        {
+            if (_networkRigidbody != null && !_networkRigidbody.HasStateAuthority)
+            {
+                StartCoroutine(GetStateAuthority());
+            }
+        }
+
+        private IEnumerator GetStateAuthority()
+        {
+            if (!_networkRigidbody.Object.RequestStateAuthority())
+                Debug.LogWarning($"[{nameof(NetworkGrabbable)}] State authority request was not sent");
+            _rigidbody.isKinematic = _isKinematic;
+
+            // # Setup to correct the non kinematic state
+            float startTime = Time.time;
+            while (!_networkRigidbody.HasStateAuthority && Time.time - startTime < TIMEOUT)
+            {
+                _rigidbody.isKinematic = _isKinematic;
+                if (_isGrabbed)
+                {
+                    _lastPosition = _rigidbody.transform.position;
+                    _lastRotation = _rigidbody.transform.rotation;
+                    _lastScale = _rigidbody.transform.localScale;
+                }
+                if (Time.time - startTime >= TIMEOUT)
+                {
+                    Debug.LogWarning($"[{nameof(NetworkGrabbable)}] Timeout, can't get object control");
+                    yield break;
+                }
+                yield return new WaitForFixedUpdate();
+            }
+
+            _rigidbody.isKinematic = _isKinematic;
+            if (!_isGrabbed)
+            {
+                _rigidbody.transform.SetPositionAndRotation(_lastPosition, _lastRotation);
+                _rigidbody.transform.localScale = _lastScale;
+            }
+            Debug.Log($"[{nameof(NetworkGrabbable)}] Object control received");
+        }
+
+        private void OnHover(HoverEnterEventArgs arg)
+        {
+            if (!_networkRigidbody.HasStateAuthority)
+            {
+                _rigidbody.isKinematic = _isKinematic; // Sketchy but fix kinematic issue // TODO: Find better solution
+            }
+        }
+
+        private void OnUngrabbed(SelectExitEventArgs arg)
+        {
+            _isGrabbed = false;
+            _grabReleaseTime = Time.unscaledTime;
+        }
+
+        private void OnGrabbed(SelectEnterEventArgs arg)
+        {
+            _isGrabbed = true; // Also when we already control it, or the respawn would pull it out of the hand
+            if (!_networkRigidbody.HasStateAuthority)
+            {
+                _rigidbody.isKinematic = _isKinematic;
+                RequestControl();
+            }
+        }
+
+        private void SlowUpdate()
+        {
+            if(_respawnDelay > 0.0f && !_isGrabbed)
+                DelayRespawnUpdate();
+        }
+
+        private void DelayRespawnUpdate()
+        {
+            float timeSinceGrab = Time.unscaledTime - _grabReleaseTime;
+            if (_networkRigidbody.HasStateAuthority)
+            {
+                bool needTeleport = Vector3.Distance(_rigidbody.position, _spawnPosition) > 0.5f;
+
+                if (needTeleport)
+                {
+                    if (timeSinceGrab > _respawnDelay)
+                    {
+                        // Teleport so other players see a jump, not the object flying back; stop it moving too
+                        _networkRigidbody.Teleport(_spawnPosition, _spawnRotation);
+                        _rigidbody.linearVelocity = Vector3.zero;
+                        _rigidbody.angularVelocity = Vector3.zero;
+                    }
+                }
+                else
+                {
+                    _grabReleaseTime = Time.unscaledTime;
+                }
+            }
+        }
+
+        [ContextMenu("- Auto Assign")]
+        // Executed in editor to ensure that the required components are assigned.
+        private void OnValidate()
+        {
+            if (_grabInteracable == null)
+            {
+                _grabInteracable = GetComponent<XRGrabInteractable>();
+            }
+            if (_networkRigidbody == null)
+            {
+                _networkRigidbody = GetComponent<NetworkTransform>();
+            }
+            if (_rigidbody == null)
+            {
+                _rigidbody = GetComponent<Rigidbody>();
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349264242e6089c44b9278d0bc2e8637, type: 3}
+  m_Name: _Plugin Descriptor
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::PluginDescriptor
+  Name: General Plugin
+  Author: Denevraut
+  Version: 4.0.0
+  DateVersion: 18/10/2026
+  Notes: "4.0.0 - Community Modules 4.0 (Photon Fusion 2.1.3)."
+  Scripts:
+  - {fileID: 11500000, guid: 270a7e65fce1ab1429262fae0ff9c02b, type: 3}
+  - {fileID: 11500000, guid: 484cce3ff55e9ef4987d0ac6600c54cf, type: 3}
+  - {fileID: 11500000, guid: f29bca093bc1c214eba7a2fc191ed8ef, type: 3}
+  - {fileID: 11500000, guid: 6868cbf3a4f51df4baf845f97958b395, type: 3}
+  - {fileID: 11500000, guid: c19c67b732c24c544a56899910d49c62, type: 3}
+  - {fileID: 11500000, guid: 72fb4b8d89bc26347a49177acaa93913, type: 3}
+  - {fileID: 11500000, guid: 178db5afa8ac66f4cb1a83fd606b25c2, type: 3}
+  - {fileID: 11500000, guid: 33e66ffa879240641960be54a53ad278, type: 3}
+  Dependencies: []

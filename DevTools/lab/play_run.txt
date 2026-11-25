@@ -1,0 +1,70 @@
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit 0 (project D:\Dreamport\Metroid Prime\METROIDPRIME\DevTools\labproject)
+446:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+551:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumMetroid] Metroid Prime Dreamport Iteration 1.2 (2026-10-17) - Iteration 1.2 (the frigate playable): the animated arm cannon (each beam's own shape, shoot, charge, missile hatch, beam change and fidgets, the suit forearm, closed from behind), the METROID PRIME tablet app (HUD distance, size, height, opacity; cannon fit; sound; save, load, rooms), enemies and the Parasite Queen, cutscenes on a cinema screen, elevators, the morph ball, pickups, save station, the escape countdown.
+[SomniumMetroid] Disc: D:\Dreamport\Metroid Prime\ISO\Metroid Prime (Europe) (En,Fr,De,Es,It).ciso (GM8P01)
+[SomniumMetroid] Disc: 22286 resources in 18 archives (GM8P01, PAL), world 'Metroid1.pak' with 28 areas, read in 130 ms
+[SomniumMetroid] Scripts: area 0 'Exterior Docking Hangar': 771 entities, 135 models placed
+[SomniumMetroid] World: area 0 'Exterior Docking Hangar' ready: 544 models, 4456 collision triangles, 1028 script objects, 157 new textures, 39 actor models; parsed in 222 ms, built over 211 ms
+[SomniumMetroid] Visors: thermal palette 16 colours, x-ray palette 256 colours
+[SomniumMetroid] Sound: 72 sound groups, 3173 effects, lookup 5245
+[SomniumMetroid] Start: area 0 'Exterior Docking Hangar', spawn at game (-87.86, 224.89, 0.50) facing -179 deg
+[SomniumMetroid] Samus: energy 99, missiles 15/15, beams Power Ice Wave Plasma (all beams and visors unlocked for testing)
+[SomniumMetroid] Gun: GunRes names 43; Power CMDL 19AE626C shot 120 u/s (Power: 20 animations (18 ANIMs), 50 bones); Ice CMDL 19AE626C shot 48 u/s (Ice: 20 animations (20 ANIMs), 50 bones); Wave CMDL 19AE626C shot 120 u/s (Wave: 20 animations (20 ANIMs), 50 bones); Plasma CMDL 19AE626C shot 120 u/s (Plasma: 20 animations (20 ANIMs), 50 bones)
+[SomniumMetroid] Gun effects: 30 textures, 10 models
+[SomniumMetroid] HUD: built from the game's frames (7 frames: FRME_BaseHud, FRME_CombatHud, FRME_Helmet, FRME_ScanHud, FRME_ThermalHud, FRME_XRayHudNew, FRME_ScanHudFlat)
+[SomniumMetroid] Reticle: the game's combat reticle (13 models, 14 charge ticks, blends SrcAlpha+One) for the monitor view
+[SomniumMetroid] Tablet: searching for the Somnium tablet (the "METROID PRIME" app goes on its home screen; VR: tap Y, monitor: Tab).
+[SomniumMetroid] Start: player placed at (-57.99, 1000.38, 148.42) (editor: CharacterController 'PlayerController' moved)
+[SomniumMetroid] World: sky A12B691E built (model radius 68 m, drawn out at 0.8 x the far plane, after the opaque world)
+LAB: game running: area 0 'Exterior Docking Hangar'
+[SomniumMetroid] Cinema: skipped
+[SomniumMetroid] Scripts: area 1 'Air Lock': 118 entities, 21 models placed
+[SomniumMetroid] World: area 1 'Air Lock' ready: 79 models, 424 collision triangles, 137 script objects, 14 new textures, 8 actor models; parsed in 6 ms, built over 16 ms
+LAB: cannon built, HUD built, sound ready, energy 99, missiles 15
+LAB: wrote play_idle.png
+LAB: reticle shown; confirm at 320,240 r 109 px col 0.29,0.49,0.64; flower at 320,240 r 81 px col 0.29,0.49,0.64; gauge at 281,260 r 83 px col 0.29,0.49,0.64; square0 at 406,283 r 8 px col 0.29,0.49,0.64; ticks on 0
+LAB: wrote play_reticle_alone.png
+LAB: wrote play_gun_close.png
+LAB: wrote play_gun_muzzle.png
+LAB: frame time before the 60 Hz clock 0.001 s
+LAB: wrote play_fire.png
+LAB: shots fired 1, hits 1, effects live 10, shots drawn 0
+LAB: charge at 0.5 s 0.28
+LAB: wrote play_charge_05.png
+LAB: charge at 1.25 s 0.69
+LAB: wrote play_charge_12.png
+LAB: wrote play_charge_12_view.png
+LAB: charge at 2.1 s 1.00, effects live 10
+LAB: wrote play_charge_full.png
+LAB: reticle shown; confirm at 320,240 r 109 px col 0.29,0.49,0.64; flower at 320,240 r 81 px col 0.29,0.49,0.64; gauge at 281,260 r 83 px col 0.41,0.66,0.81; square0 at 406,283 r 8 px col 0.29,0.49,0.64; ticks on 14
+LAB: wrote play_reticle_charged.png
+LAB: wrote play_charge.png
+LAB: wrote play_charged_shot.png
+LAB: wrote play_charged_shot_2.png
+LAB: wrote play_missile.png
+LAB: shots fired 4, hits 4, missiles left 14
+LAB: wrote play_beam_wave.png
+LAB: wrote play_beam_ice.png
+LAB: wrote play_beam_plasma.png
+LAB: wrote play_beam_power.png
+[SomniumMetroid] Visor: Thermal
+LAB: wrote play_visor_thermal.png
+[SomniumMetroid] Visor: X-Ray
+LAB: wrote play_visor_xray.png
+[SomniumMetroid] Visor: Scan
+LAB: scan points active in the loaded areas: 19
+LAB: wrote play_visor_scan.png
+LAB: scanning 'POI_Samus Ship.scan' 14.7 m away
+[SomniumMetroid] Scan: text "Energy Force Field in place. You cannot reach your gunship."
+[SomniumMetroid] Scan: 'POI_Samus Ship.scan' done
+LAB: wrote play_scan_result.png
+[SomniumMetroid] Visor: Combat
+LAB: wrote play_message.png
+LAB: wrote play_look_1.png
+LAB: wrote play_look_2.png
+LAB: wrote play_look_3.png
+LAB: sound: effects started 41, missing 0, dsp time 30.44, output rate 48000
+LAB: done
+LAB: exit 0

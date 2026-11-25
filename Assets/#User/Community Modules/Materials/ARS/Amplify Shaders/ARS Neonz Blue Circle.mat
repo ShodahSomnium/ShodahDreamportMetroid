@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ARS Neonz Blue Circle
+  m_Shader: {fileID: 4800000, guid: 1cea0692a8f28ae46b90c6e3190fe665, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _VERTEXMASK_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2999
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 1775c057ca4306e428097037e40cffb7, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _AmplitudeGain: 1.5
+    - _AmplitudePower: 2
+    - _ColorLerpCurve: 1
+    - _EnvironmentReflections: 1
+    - _Frequency: 0
+    - _FrequencyOffset: 0
+    - _Gain: 1
+    - _LerpCurve: 1
+    - _M: 0
+    - _Metalic: 0
+    - _QueueControl: 0
+    - _QueueOffset: -1
+    - _ReceiveShadows: 1
+    - _S: 0
+    - _SmoothHistogram: 0
+    - _SmoothHistogram1: 0
+    - _Smoothness: 0
+    - _SpectroFreq: 0
+    - _SpectroU: 0
+    - _SpecularHighlights: 1
+    - _UseSmoothgram: 0
+    - _VertexMask: 1
+    - _VertexMaskCurve: 0.22
+    m_Colors:
+    - _Color: {r: 0, g: 0.14184949, b: 0.74901974, a: 0}
+    - _ColorA: {r: 0, g: 0.12335677, b: 1.4980392, a: 0}
+    - _ColorB: {r: 0, g: 3.9947674, b: 47.937256, a: 0}
+    - _ColorMax: {r: 2.0010667, g: 4.7935486, b: 17.975697, a: 0}
+    - _ColorMin: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LerpColors: {r: 0, g: 0, b: 0, a: 0}
+    - _SpectroDepth: {r: 0, g: 1, b: 0, a: 0}
+    - _SpectroV: {r: 0, g: 1, b: 0, a: 0}
+    - _VMinMax: {r: 0, g: 1, b: 0, a: 0}
+    - _VRange: {r: 0, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

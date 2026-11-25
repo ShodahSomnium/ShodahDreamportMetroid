@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349264242e6089c44b9278d0bc2e8637, type: 3}
+  m_Name: _Plugin Descriptor
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::PluginDescriptor
+  Name: Thad Mirror
+  Author: Thad Gyther
+  Version: 1.2.0
+  DateVersion: 18/10/2026
+  Notes: "1.2.0\n- Mirrors no longer stop for the whole session after a render error.\n\n1.1.0\n- Fixed Avatar scale issue\n- Fixed TAA making the mirror buggy"
+
+    - Fixed Avatar scale issue
+
+    - Fixed TAA making the mirror
+    buggy'
+  Scripts:
+  - {fileID: 11500000, guid: bdaf1794751baa248a69b7e2a765e2a1, type: 3}
+  Dependencies: []

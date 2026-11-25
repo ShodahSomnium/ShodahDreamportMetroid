@@ -1,0 +1,96 @@
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit 0 (project D:\Dreamport\Metroid Prime\METROIDPRIME\DevTools\labproject)
+421:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+526:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+912:SomniumSpace.Worlds.SomniumMetroid.Game.MpAudio/<>c__DisplayClass61_0:<Decode>b__1 (object,System.Exception) (at Assets/#User/SomniumMetroid/Game/Audio/MpAudio.cs:817)
+6632:SomniumSpace.Worlds.SomniumMetroid.Game.MpAudio/<>c__DisplayClass61_0:<Decode>b__1 (object,System.Exception) (at Assets/#User/SomniumMetroid/Game/Audio/MpAudio.cs:817)
+[SomniumMetroid] Metroid Prime Dreamport Iteration 1.2 (2026-10-17) - Iteration 1.2 (the frigate playable): the animated arm cannon (each beam's own shape, shoot, charge, missile hatch, beam change and fidgets, the suit forearm, closed from behind), the METROID PRIME tablet app (HUD distance, size, height, opacity; cannon fit; sound; save, load, rooms), enemies and the Parasite Queen, cutscenes on a cinema screen, elevators, the morph ball, pickups, save station, the escape countdown.
+[SomniumMetroid] Disc: D:\Dreamport\Metroid Prime\ISO\Metroid Prime (Europe) (En,Fr,De,Es,It).ciso (GM8P01)
+[SomniumMetroid] Disc: 22286 resources in 18 archives (GM8P01, PAL), world 'Metroid1.pak' with 28 areas, read in 133 ms
+[SomniumMetroid] Scripts: area 0 'Exterior Docking Hangar': 771 entities, 135 models placed
+[SomniumMetroid] World: area 0 'Exterior Docking Hangar' ready: 544 models, 4456 collision triangles, 1028 script objects, 157 new textures, 39 actor models; parsed in 218 ms, built over 207 ms
+[SomniumMetroid] Visors: thermal palette 16 colours, x-ray palette 256 colours
+[SomniumMetroid] Sound: 72 sound groups, 3173 effects, lookup 5245
+[SomniumMetroid] Start: area 0 'Exterior Docking Hangar', spawn at game (-87.86, 224.89, 0.50) facing -179 deg
+[SomniumMetroid] Samus: energy 99, missiles 15/15, beams Power Ice Wave Plasma (all beams and visors unlocked for testing)
+[SomniumMetroid] Gun: GunRes names 43; Power CMDL 19AE626C shot 120 u/s (Power: 20 animations (18 ANIMs), 50 bones); Ice CMDL 19AE626C shot 48 u/s (Ice: 20 animations (20 ANIMs), 50 bones); Wave CMDL 19AE626C shot 120 u/s (Wave: 20 animations (20 ANIMs), 50 bones); Plasma CMDL 19AE626C shot 120 u/s (Plasma: 20 animations (20 ANIMs), 50 bones)
+[SomniumMetroid] Gun effects: 30 textures, 10 models
+[SomniumMetroid] HUD: built from the game's frames (7 frames: FRME_BaseHud, FRME_CombatHud, FRME_Helmet, FRME_ScanHud, FRME_ThermalHud, FRME_XRayHudNew, FRME_ScanHudFlat)
+[SomniumMetroid] Reticle: the game's combat reticle (13 models, 14 charge ticks, blends SrcAlpha+One) for the monitor view
+[SomniumMetroid] Tablet: searching for the Somnium tablet (the "METROID PRIME" app goes on its home screen; VR: tap Y, monitor: Tab).
+[SomniumMetroid] Start: player placed at (-57.99, 1000.38, 148.42) (editor: CharacterController 'PlayerController' moved)
+[SomniumMetroid] World: sky A12B691E built (model radius 68 m, drawn out at 0.8 x the far plane, after the opaque world)
+LAB: game running: area 0 'Exterior Docking Hangar'
+[SomniumMetroid] World: moved to area 0 'Exterior Docking Hangar' at game (22.17, 77.98, 5.25)
+[SomniumMetroid] Scripts: area 1 'Air Lock': 118 entities, 21 models placed
+[SomniumMetroid] World: area 1 'Air Lock' ready: 79 models, 424 collision triangles, 137 script objects, 14 new textures, 8 actor models; parsed in 6 ms, built over 14 ms
+[SomniumMetroid] Music: /audio/int_introcinemaL.dsp|/audio/int_introcinemaR.dsp decoded (3156899 samples at 32000 Hz, stereo)
+[SomniumMetroid] Music: playing /audio/int_introcinemaL.dsp|/audio/int_introcinemaR.dsp (once)
+LAB: room 0 'Exterior Docking Hangar' (Going to Exterior Docking Hangar): entities 891 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 48, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: room 0 'Exterior Docking Hangar' (Going to Exterior Docking Hangar): effects 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1; live 3, enemies alive 0, generator copies 0, cinematic shots 1 (one running: 'Camera1' 1.6/53.0 s)
+LAB: wrote room_00.png
+[SomniumMetroid] World: moved to area 1 'Air Lock' at game (22.45, 44.28, 5.30)
+[SomniumMetroid] Scripts: area 2 'Deck Alpha Access Hall': 89 entities, 4 models placed
+[SomniumMetroid] World: area 2 'Deck Alpha Access Hall' ready: 113 models, 784 collision triangles, 89 script objects, 18 new textures, 2 actor models; parsed in 38 ms, built over 35 ms
+[SomniumMetroid] Scripts: area 3 'Deck Alpha Mech Shaft': 19 entities, 3 models placed
+[SomniumMetroid] World: area 3 'Deck Alpha Mech Shaft' ready: 158 models, 408 collision triangles, 19 script objects, 27 new textures, 3 actor models; parsed in 14 ms, built over 38 ms
+LAB: room 1 'Air Lock' (Going to Air Lock): entities 1001 - MpActorEntity 123, MpActorKeyframeEntity 5, MpActorRotateEntity 7, MpAnimActorEntity 25, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 19, MpDoorEntity 7, MpEffectEntity 36, MpEntity 83, MpGeneratorEntity 14, MpHudMemoEntity 18, MpMemoryRelayEntity 11, MpMovingPlatform 8, MpMusicEntity 4, MpParasite 3, MpPlayerActorEntity 3, MpRelayEntity 46, MpScanPointEntity 33, MpShakerEntity 3, MpSoundEntity 62, MpSpawnEntity 5, MpSpecialFunctionEntity 13, MpSwitchEntity 1, MpTimerEntity 173, MpTriggerEntity 136, MpWaypointEntity 148
+LAB: room 1 'Air Lock' (Going to Air Lock): effects 26FE44B5P x2, 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1; live 5, enemies alive 3, generator copies 0, cinematic shots 1 (one running: 'Camera1' 3.2/53.0 s)
+LAB: wrote room_01.png
+[SomniumMetroid] World: moved to area 2 'Deck Alpha Access Hall' at game (22.49, 38.28, 5.30)
+[SomniumMetroid] Scripts: area 4 'Emergency Evacuation Area': 269 entities, 11 models placed
+[SomniumMetroid] World: area 4 'Emergency Evacuation Area' ready: 169 models, 7396 collision triangles, 269 script objects, 117 new textures, 2 actor models; parsed in 167 ms, built over 95 ms
+LAB: room 2 'Deck Alpha Access Hall' (Going to Deck Alpha Access Hall): entities 1272 - MpActorEntity 125, MpActorKeyframeEntity 8, MpActorRotateEntity 7, MpAnimActorEntity 25, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 21, MpDoorEntity 9, MpEffectEntity 86, MpEntity 137, MpGeneratorEntity 23, MpHudMemoEntity 22, MpMemoryRelayEntity 15, MpMovingPlatform 8, MpMusicEntity 6, MpParasite 6, MpPickupEntity 7, MpPickupGeneratorEntity 1, MpPlayerActorEntity 3, MpRelayEntity 57, MpScanPointEntity 53, MpShakerEntity 9, MpSoundEntity 96, MpSpacePirate 1, MpSpawnEntity 6, MpSpecialFunctionEntity 13, MpSwitchEntity 1, MpTimerEntity 190, MpTriggerEntity 160, MpWaypointEntity 162
+LAB: room 2 'Deck Alpha Access Hall' (Going to Deck Alpha Access Hall): effects 787792C2P x3, 06EF9097P x3, 2D683973 x3, 26FE44B5P x2, 4FCF79A2P x2, 715DBDF0P x2, C6A30BCFP x2, 08107E32P x2; live 31, enemies alive 7, generator copies 0, cinematic shots 1 (one running: 'Camera1' 4.9/53.0 s)
+LAB: wrote room_02.png
+[SomniumMetroid] World: moved to area 3 'Deck Alpha Mech Shaft' at game (-5.21, 59.41, 5.29)
+[SomniumMetroid] World: area 4 'Emergency Evacuation Area' unloaded
+[SomniumMetroid] Scripts: area 5 'Connection Elevator to Deck Alpha': 310 entities, 54 models placed
+[SomniumMetroid] World: area 5 'Connection Elevator to Deck Alpha' ready: 63 models, 1916 collision triangles, 317 script objects, 59 new textures, 21 actor models; parsed in 182 ms, built over 50 ms
+LAB: room 3 'Deck Alpha Mech Shaft' (Going to Deck Alpha Mech Shaft): entities 1312 - MpActorEntity 148, MpActorKeyframeEntity 6, MpActorRotateEntity 7, MpAnimActorEntity 45, MpCinematicCamera 16, MpCounterEntity 4, MpDamageableTriggerEntity 19, MpDoorEntity 8, MpEffectEntity 68, MpEntity 103, MpGeneratorEntity 16, MpGunTurret 2, MpHudMemoEntity 23, MpMemoryRelayEntity 15, MpMovingPlatform 9, MpMusicEntity 9, MpParasite 3, MpPickupEntity 7, MpPickupGeneratorEntity 1, MpPlayerActorEntity 8, MpRadialDamageEntity 1, MpRelayEntity 59, MpScanPointEntity 38, MpShakerEntity 9, MpSoundEntity 106, MpSpawnEntity 7, MpSpecialFunctionEntity 13, MpSwitchEntity 1, MpTimerEntity 232, MpTriggerEntity 154, MpWaypointEntity 175
+LAB: room 3 'Deck Alpha Mech Shaft' (Going to Deck Alpha Mech Shaft): effects 787792C2P x4, 205B13E3P x4, 06EF9097P x3, 26FE44B5P x2, 4FCF79A2P x2, 18F7A232P x1, ED2E95EBP x1, 9271FCB8P x1; live 28, enemies alive 5, generator copies 0, cinematic shots 1 (one running: 'Camera1' 6.7/53.0 s)
+LAB: wrote room_03.png
+[SomniumMetroid] Scripts: area 4 'Emergency Evacuation Area': 269 entities, 11 models placed
+[SomniumMetroid] World: area 4 'Emergency Evacuation Area' ready: 169 models, 7396 collision triangles, 269 script objects, 0 new textures, 2 actor models; parsed in 45 ms, built over 68 ms
+[SomniumMetroid] World: moved to area 4 'Emergency Evacuation Area' at game (6.92, -59.72, 0.30)
+[SomniumMetroid] Scripts: area 6 'Deck Alpha Umbilical Hall': 67 entities, 8 models placed
+[SomniumMetroid] World: area 6 'Deck Alpha Umbilical Hall' ready: 63 models, 964 collision triangles, 67 script objects, 7 new textures, 6 actor models; parsed in 7 ms, built over 16 ms
+[SomniumMetroid] World: area 0 'Exterior Docking Hangar' unloaded
+[SomniumMetroid] World: area 3 'Deck Alpha Mech Shaft' unloaded
+[SomniumMetroid] World: area 5 'Connection Elevator to Deck Alpha' unloaded
+LAB: room 4 'Emergency Evacuation Area' (Going to Emergency Evacuation Area): entities 550 - MpActorEntity 11, MpActorKeyframeEntity 6, MpAnimActorEntity 16, MpDamageableTriggerEntity 10, MpDoorEntity 8, MpEffectEntity 79, MpEntity 113, MpGeneratorEntity 12, MpHudMemoEntity 13, MpMemoryRelayEntity 9, MpMovingPlatform 2, MpMusicEntity 3, MpParasite 6, MpPickupEntity 7, MpPickupGeneratorEntity 1, MpRelayEntity 35, MpScanPointEntity 30, MpShakerEntity 8, MpSoundEntity 57, MpSpacePirate 1, MpSpawnEntity 4, MpTimerEntity 45, MpTriggerEntity 43, MpWaypointEntity 31
+LAB: room 4 'Emergency Evacuation Area' (Going to Emergency Evacuation Area): effects 787792C2P x3, 06EF9097P x3, 2D683973 x3, 26FE44B5P x2, 4FCF79A2P x2, 715DBDF0P x2, C6A30BCFP x2, 08107E32P x2; live 30, enemies alive 7, generator copies 0, cinematic shots 1
+LAB: wrote room_04.png
+[SomniumMetroid] Scripts: area 5 'Connection Elevator to Deck Alpha': 310 entities, 54 models placed
+[SomniumMetroid] World: area 5 'Connection Elevator to Deck Alpha' ready: 63 models, 1916 collision triangles, 317 script objects, 0 new textures, 21 actor models; parsed in 14 ms, built over 24 ms
+[SomniumMetroid] World: moved to area 5 'Connection Elevator to Deck Alpha' at game (56.70, 49.37, -48.04)
+[SomniumMetroid] World: area 2 'Deck Alpha Access Hall' unloaded
+[SomniumMetroid] World: area 4 'Emergency Evacuation Area' unloaded
+[SomniumMetroid] World: area 6 'Deck Alpha Umbilical Hall' unloaded
+[SomniumMetroid] Scripts: area 3 'Deck Alpha Mech Shaft': 19 entities, 3 models placed
+[SomniumMetroid] World: area 3 'Deck Alpha Mech Shaft' ready: 158 models, 408 collision triangles, 19 script objects, 0 new textures, 3 actor models; parsed in 20 ms, built over 36 ms
+[SomniumMetroid] Scripts: area 7 'Biotech Research Area 2': 279 entities, 21 models placed
+[SomniumMetroid] World: area 7 'Biotech Research Area 2' ready: 60 models, 8016 collision triangles, 280 script objects, 86 new textures, 12 actor models; parsed in 75 ms, built over 82 ms
+LAB: room 5 'Connection Elevator to Deck Alpha' (Going to Connection Elevator to Deck Alpha): entities 729 - MpActorEntity 36, MpActorKeyframeEntity 2, MpAnimActorEntity 45, MpCinematicCamera 16, MpDamageableTriggerEntity 6, MpDoorEntity 5, MpEffectEntity 84, MpEntity 64, MpGeneratorEntity 4, MpGunTurret 2, MpHudMemoEntity 10, MpMemoryRelayEntity 10, MpMovingPlatform 6, MpMusicEntity 6, MpPickupEntity 7, MpPickupGeneratorEntity 1, MpPlayerActorEntity 11, MpRadialDamageEntity 1, MpRelayEntity 38, MpScanPointEntity 14, MpShakerEntity 12, MpSoundEntity 104, MpSpawnEntity 6, MpSpecialFunctionEntity 3, MpTimerEntity 124, MpTriggerEntity 38, MpWaypointEntity 74
+LAB: room 5 'Connection Elevator to Deck Alpha' (Going to Connection Elevator to Deck Alpha): effects 7AB801E1P x8, 0B2653BDP x3, 787792C2P x3, 205B13E3P x3, C99EA1F2P x3, 42608786P x1, 0E8589BEP x1, ED2E95EBP x1; live 32, enemies alive 2, generator copies 0, cinematic shots 1
+LAB: wrote room_05.png
+[SomniumMetroid] Scripts: area 6 'Deck Alpha Umbilical Hall': 67 entities, 8 models placed
+[SomniumMetroid] World: area 6 'Deck Alpha Umbilical Hall' ready: 63 models, 964 collision triangles, 67 script objects, 0 new textures, 6 actor models; parsed in 4 ms, built over 9 ms
+[SomniumMetroid] World: moved to area 6 'Deck Alpha Umbilical Hall' at game (7.99, -65.62, 0.30)
+[SomniumMetroid] World: area 1 'Air Lock' unloaded
+[SomniumMetroid] World: area 5 'Connection Elevator to Deck Alpha' unloaded
+[SomniumMetroid] World: area 3 'Deck Alpha Mech Shaft' unloaded
+[SomniumMetroid] World: area 7 'Biotech Research Area 2' unloaded
+[SomniumMetroid] Scripts: area 4 'Emergency Evacuation Area': 269 entities, 11 models placed
+[SomniumMetroid] World: area 4 'Emergency Evacuation Area' ready: 169 models, 7396 collision triangles, 269 script objects, 0 new textures, 2 actor models; parsed in 46 ms, built over 66 ms
+[SomniumMetroid] Scripts: area 8 'Map Facility': 210 entities, 15 models placed
+[SomniumMetroid] World: area 8 'Map Facility' ready: 89 models, 1528 collision triangles, 216 script objects, 47 new textures, 11 actor models; parsed in 53 ms, built over 55 ms
+LAB: room 6 'Deck Alpha Umbilical Hall' (Going to Deck Alpha Umbilical Hall): entities 553 - MpActorEntity 18, MpActorKeyframeEntity 7, MpAnimActorEntity 2, MpCinematicCamera 4, MpDamageableTriggerEntity 10, MpDoorEntity 6, MpEffectEntity 68, MpEntity 109, MpGeneratorEntity 15, MpHudMemoEntity 12, MpMemoryRelayEntity 8, MpMovingPlatform 1, MpMusicEntity 4, MpParasite 11, MpPickupEntity 7, MpPickupGeneratorEntity 1, MpPlayerActorEntity 1, MpRelayEntity 26, MpScanPointEntity 32, MpShakerEntity 8, MpSoundEntity 46, MpSpacePirate 1, MpSpawnEntity 4, MpSpecialFunctionEntity 3, MpTimerEntity 41, MpTriggerEntity 37, MpWaypointEntity 71
+LAB: room 6 'Deck Alpha Umbilical Hall' (Going to Deck Alpha Umbilical Hall): effects 501B7D88P x4, CB271679P x3, 2D683973 x3, 715DBDF0P x2, 0AA9C9B9P x2, 60FCF8A4P x2, 08107E32P x2, C6A30BCFP x2; live 35, enemies alive 12, generator copies 0, cinematic shots 1
+LAB: wrote room_06.png
+[SomniumMetroid] Scripts: area 7 'Biotech Research Area 2': 279 entities, 21 models placed
+[SomniumMetroid] World: area 7 'Biotech Research Area 2' ready: 60 models, 8016 collision triangles, 280 script objects, 0 new textures, 12 actor models; parsed in 49 ms, built over 68 ms
+[SomniumMetroid] World: moved to area 7 'Biotech Research Area 2' at game (164.87, 48.52, -46.36)
+[SomniumMetroid] Scripts: area 9 'Main Ventilation Shaft Section F': 45 entities, 11 models placed
+[SomniumMetroid] World: area 9 'Main Ventilation Shaft Section F' ready: 21 models, 428 collision triangles, 45 script objects, 21 new textures, 2 actor models; parsed in 6 ms, built over 38 ms
+[SomniumMetroid] Scripts: area 5 'Connection Elevator to Deck Alpha': 310 entities, 54 models placed

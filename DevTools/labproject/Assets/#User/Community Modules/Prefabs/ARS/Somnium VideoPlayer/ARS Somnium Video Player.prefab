@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1201610282001524153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3497565312244090716}
+  - component: {fileID: 2919285904015412756}
+  - component: {fileID: 8402493663212207583}
+  - component: {fileID: 6094383822087600419}
+  m_Layer: 0
+  m_Name: ARS Somnium Video Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3497565312244090716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201610282001524153}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 16.368, y: 1.9990001, z: -2.9320002}
+  m_LocalScale: {x: 4.88, y: 2.73, z: 2.73}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &2919285904015412756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201610282001524153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2071455168, guid: 6af85501506cb7f4db5388060eadf518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEventReceived:
+    m_PersistentCalls:
+      m_Calls: []
+  _link: https://youtu.be/Ka3YLJ7ETQY?si=FBmb8Q8J9r8JPL83
+  _autoPlay: 1
+  _loop: 1
+  _volume: 0.9
+  _useNativeControls: 1
+  _enableAdditionalRenderTargets: 0
+  _additionalRenderTargets: []
+  _enableAdditionalAudioSources: 0
+  _additionalAudioSources: []
+  _audioSettings: {fileID: 6094383822087600419}
+--- !u!114 &8402493663212207583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201610282001524153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d45575708575a8247a089bee137201ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _videoPlayer: {fileID: 1201610282001524153}
+  _autoRegistertoARS: 0
+--- !u!114 &6094383822087600419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201610282001524153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 679144306, guid: 6af85501506cb7f4db5388060eadf518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _useDefaultAudioSettings: 0
+  _positionalAudio: 0
+  _bypassEffects: 0
+  _bypassReverbZones: 0
+  _priority: 128
+  _pitch: 1
+  _stereoPan: 0
+  _spatialBlend: 1
+  _reverbZoneMix: 1
+  _dopplerLevel: 1
+  _spread: 0
+  _volumeRolloff: 2
+  _customRolloffCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _minDistance: 1
+  _maxDistance: 37.4

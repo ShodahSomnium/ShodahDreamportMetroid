@@ -1,0 +1,72 @@
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit 0 (project D:\Dreamport\Metroid Prime\METROIDPRIME\DevTools\labproject)
+518:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+623:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+1184:SomniumSpace.Worlds.SomniumMetroid.Game.MpAudio/<>c__DisplayClass61_0:<Decode>b__1 (object,System.Exception) (at Assets/#User/SomniumMetroid/Game/Audio/MpAudio.cs:817)
+1630:SomniumSpace.Worlds.SomniumMetroid.Game.MpAudio/<>c__DisplayClass61_0:<Decode>b__1 (object,System.Exception) (at Assets/#User/SomniumMetroid/Game/Audio/MpAudio.cs:817)
+[SomniumMetroid] Metroid Prime Dreamport Iteration 1.1 (2026-10-16) - Iteration 1.1 (gun polish): the game's own gun effects (each beam's shots, trails, impacts with their sounds, muzzle flash, the charge glow and its aux muzzle, timed as on the GameCube), the game's combat reticle on the monitor, shots pass closed doors the way the game lets them (the hangar's upper lock buttons can be shot).
+[SomniumMetroid] Disc: D:\Dreamport\Metroid Prime\ISO\Metroid Prime (Europe) (En,Fr,De,Es,It).ciso (GM8P01)
+[SomniumMetroid] Disc: 22286 resources in 18 archives (GM8P01, PAL), world 'Metroid1.pak' with 28 areas, read in 143 ms
+[SomniumMetroid] Scripts: area 0 'Exterior Docking Hangar': 771 entities, 135 models placed
+[SomniumMetroid] World: area 0 'Exterior Docking Hangar' ready: 544 models, 4456 collision triangles, 1028 script objects, 153 new textures, 39 actor models; parsed in 115 ms, built over 213 ms
+[SomniumMetroid] Visors: thermal palette 16 colours, x-ray palette 256 colours
+[SomniumMetroid] Sound: 72 sound groups, 3173 effects, lookup 5245
+[SomniumMetroid] Start: area 0 'Exterior Docking Hangar', spawn at game (-87.86, 224.89, 0.50) facing -179 deg
+[SomniumMetroid] Samus: energy 99, missiles 15/15, beams Power Ice Wave Plasma (all beams and visors unlocked for testing)
+[SomniumMetroid] Gun: GunRes names 43; Power CMDL 19AE626C shot 120 u/s (Power: 20 animations (18 ANIMs), 50 bones); Ice CMDL 19AE626C shot 48 u/s (Ice: 20 animations (20 ANIMs), 50 bones); Wave CMDL 19AE626C shot 120 u/s (Wave: 20 animations (20 ANIMs), 50 bones); Plasma CMDL 19AE626C shot 120 u/s (Plasma: 20 animations (20 ANIMs), 50 bones)
+[SomniumMetroid] Gun effects: 28 textures, 9 models
+[SomniumMetroid] HUD: built from the game's frames (6 frames: FRME_BaseHud, FRME_CombatHud, FRME_Helmet, FRME_ScanHud, FRME_ThermalHud, FRME_XRayHudNew)
+[SomniumMetroid] Reticle: the game's combat reticle (13 models, 14 charge ticks, blends SrcAlpha+One) for the monitor view
+[SomniumMetroid] Tablet: searching for the Somnium tablet (the "METROID PRIME" app goes on its home screen; VR: tap Y, monitor: Tab).
+[SomniumMetroid] Start: player placed at (-57.99, 1000.38, 148.42) (editor: CharacterController 'PlayerController' moved)
+[SomniumMetroid] World: sky A12B691E built (model radius 68 m, drawn out at 0.8 x the far plane, after the opaque world)
+LAB: game running: area 0 'Exterior Docking Hangar'
+[SomniumMetroid] Scripts: area 1 'Air Lock': 118 entities, 21 models placed
+[SomniumMetroid] World: area 1 'Air Lock' ready: 79 models, 424 collision triangles, 137 script objects, 14 new textures, 8 actor models; parsed in 19 ms, built over 13 ms
+LAB: beam 0 Power: Power: 20 animations (18 ANIMs), 50 bones
+LAB: beam 1 Ice: Ice: 20 animations (20 ANIMs), 50 bones
+LAB: beam 2 Wave: Wave: 20 animations (20 ANIMs), 50 bones
+LAB: beam 3 Plasma: Plasma: 20 animations (20 ANIMs), 50 bones
+LAB: suit arm PowerArm loaded
+LAB: suit arm GravityArm loaded
+LAB: suit arm VariaArm loaded
+LAB: suit arm PhazonArm loaded
+LAB: suit 2
+LAB: power: muzzle (-57.825, 1001.567, 148.889) (root (-57.822, 1001.571, 148.610))
+LAB: wrote gun_power_side.png
+LAB: wrote gun_power_back.png
+LAB: wrote gun_power_top.png
+[SomniumMetroid] Music: /audio/int_introcinemaL.dsp|/audio/int_introcinemaR.dsp decoded (3156899 samples at 32000 Hz, stereo)
+[SomniumMetroid] Music: playing /audio/int_introcinemaL.dsp|/audio/int_introcinemaR.dsp (once)
+LAB: wave: muzzle (-57.825, 1001.567, 148.889) (root (-57.822, 1001.571, 148.610))
+LAB: wrote gun_wave_side.png
+LAB: wrote gun_wave_back.png
+LAB: wrote gun_wave_top.png
+LAB: ice: muzzle (-57.825, 1001.567, 148.889) (root (-57.822, 1001.571, 148.610))
+LAB: wrote gun_ice_side.png
+LAB: wrote gun_ice_back.png
+LAB: wrote gun_ice_top.png
+LAB: plasma: muzzle (-57.827, 1001.562, 149.024) (root (-57.822, 1001.571, 148.610))
+LAB: wrote gun_plasma_side.png
+LAB: wrote gun_plasma_back.png
+LAB: wrote gun_plasma_top.png
+LAB: wrote gun_anim_shoot.png
+LAB: charge 0.42 (charge-up)
+LAB: wrote gun_anim_chargeup.png
+LAB: charge 1.00 (loop)
+LAB: wrote gun_anim_chargeloop.png
+LAB: wrote gun_charged_side.png
+LAB: wrote gun_charged_back.png
+LAB: wrote gun_charged_top.png
+LAB: wrote gun_anim_chargeshoot.png
+LAB: wrote gun_anim_missile.png
+LAB: wrote gun_anim_reload.png
+LAB: wrote gun_anim_missileaway.png
+LAB: missiles left 14, shots fired 4
+LAB: wrote gun_anim_change.png
+[SomniumMetroid] Music: /audio/vox_x_introcine_00.dsp decoded (978582 samples at 32000 Hz, mono)
+[SomniumMetroid] Music: playing /audio/vox_x_introcine_00.dsp (once)
+LAB: wrote gun_anim_fidget.png
+LAB: wrote gun_view.png
+LAB: done
+LAB: exit 0

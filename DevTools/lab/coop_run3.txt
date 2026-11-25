@@ -1,0 +1,123 @@
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit: master 0, helper 1
+=== lab_coop_master.log
+LAB: coop: lab link as master on port 47621
+[SomniumMetroid] Co-op: ready (lab link); alone you are the master of your own game
+LAB: game running: area 0 'Exterior Docking Hangar'
+LAB: coop master: waiting for the helper to join
+[SomniumMetroid] Co-op: master, 1 player(s), 0 remote slot(s), enemy health x1.00
+[SomniumMetroid] Co-op: 2 player(s) - enemy and boss health x1.25 (0 enemies now)
+[SomniumMetroid] Co-op: the game sent to Lab Helper (player 2): 'Metroid1.pak' room 0, 28 rooms' layers, 1 memory relays
+[SomniumMetroid] Co-op: room 0 'Exterior Docking Hangar' census to player 2: 58 entities changed
+[SomniumMetroid] Co-op: room 1 'Air Lock' census to player 2: 3 entities changed
+LAB: CHECK master-players ok (players 2)
+LAB: CHECK master-health-scale ok (x1.25)
+LAB: coop master: no enemy loaded to check the health on
+LAB: CHECK master-hurt-sent ok
+LAB: coop master: breaking 1A 00000363 'Trigger_DoorUnlock' (Door_Area Outside closed, Door_Area Inside closed)
+LAB: CHECK master-lock-broken ok (Door_Area Outside closed, Door_Area Inside closed)
+LAB: CHECK master-helper-hit ok (damage messages 1)
+LAB: coop master: off to the Chozo Ruins (Ruins Entrance)
+[SomniumMetroid] Co-op: room 1 'Ruins Entrance' census to everyone: 7 entities changed
+[SomniumMetroid] Co-op: room 0 'Transport to Tallon Overworld North' census to everyone: 2 entities changed
+[SomniumMetroid] Co-op: room 2 'Main Plaza' census to everyone: 11 entities changed
+[SomniumMetroid] Co-op: the game sent to Lab Helper (player 2): 'Metroid2.pak' room 1, 64 rooms' layers, 1 memory relays
+LAB: CHECK master-helper-followed-chozo ok
+[SomniumMetroid] Co-op: room 1 'Ruins Entrance' census to player 2: 9 entities changed
+[SomniumMetroid] Co-op: room 0 'Transport to Tallon Overworld North' census to player 2: 3 entities changed
+[SomniumMetroid] Co-op: room 1 'Ruins Entrance' census to player 2: 9 entities changed
+[SomniumMetroid] Co-op: room 2 'Main Plaza' census to player 2: 11 entities changed
+LAB: coop master: woke 16 00010014 '04/16/02 Alpha Beetle MMT-component' health 12.5/12.5 (base 10)
+LAB: CHECK master-beetle-health ok (10 -> 12.5)
+LAB: CHECK master-beetle-killed-by-helper ok (health 0)
+LAB: coop master: off to Tallon IV (Landing Site)
+[SomniumMetroid] Co-op: room 0 'Landing Site' census to everyone: 21 entities changed
+[SomniumMetroid] Co-op: room 3 'Temple Hall' census to everyone: 2 entities changed
+[SomniumMetroid] Co-op: room 4 'Alcove' census to everyone: 1 entities changed
+[SomniumMetroid] Co-op: room 2 'Canyon Cavern' census to everyone: 3 entities changed
+[SomniumMetroid] Co-op: room 5 'Waterfall Cavern' census to everyone: 3 entities changed
+[SomniumMetroid] Co-op: room 1 'Gully' census to everyone: 2 entities changed
+[SomniumMetroid] Co-op: master, 2 player(s), 1 remote slot(s), enemy health x1.25
+[SomniumMetroid] Co-op: the game sent to Lab Helper (player 2): 'Metroid4.pak' room 0, 44 rooms' layers, 3 memory relays
+LAB: CHECK master-helper-followed-tallon ok
+[SomniumMetroid] Co-op: room 0 'Landing Site' census to player 2: 30 entities changed
+[SomniumMetroid] Co-op: room 1 'Gully' census to player 2: 2 entities changed
+[SomniumMetroid] Co-op: room 3 'Temple Hall' census to player 2: 2 entities changed
+[SomniumMetroid] Co-op: room 2 'Canyon Cavern' census to player 2: 3 entities changed
+[SomniumMetroid] Co-op: room 4 'Alcove' census to player 2: 1 entities changed
+[SomniumMetroid] Co-op: room 5 'Waterfall Cavern' census to player 2: 3 entities changed
+[SomniumMetroid] Co-op: room 0 'Landing Site' census to player 2: 30 entities changed
+LAB: coop master: script deliveries sent 260, damage in 2; checks 9, failed 0
+LAB: done
+LAB: exit 0
+=== lab_coop_helper.log
+700:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+851:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+LAB: coop: lab link as helper on port 47621
+[SomniumMetroid] Co-op: ready (lab link); alone you are the master of your own game
+[SomniumMetroid] Co-op: asking Lab Master (player 1) for the game
+[SomniumMetroid] Co-op: helper, 2 player(s), 1 remote slot(s), enemy health x1.25
+LAB: game running: area 0 'Exterior Docking Hangar'
+[SomniumMetroid] Co-op: joining Lab Master's game: 'Metroid1.pak' room 0, 28 rooms' layers, 1 memory relays
+[SomniumMetroid] Co-op: script world mirrors the master's
+LAB: coop helper: waiting to join the master's game
+LAB: CHECK helper-joined ok ('Metroid1.pak' room 0 at (-87.86, 226.49, 0.45))
+LAB: CHECK helper-players ok (players 2)
+LAB: CHECK helper-health-scale ok (x1.25)
+LAB: CHECK helper-saw-shot ok (shots 1)
+LAB: CHECK helper-got-hurt ok (hurts 1)
+LAB: CHECK helper-unlocks ok (space jump 1, suit 2)
+LAB: CHECK helper-scripts-mirrored ok (script deliveries 75)
+LAB: CHECK helper-no-save ok
+LAB: CHECK helper-lock1-mirrored ok (doors open here 0, at the master 0: Door_Area Outside closed, Door_Area Inside closed)
+LAB: coop helper: breaking 1A 00000120 'Trigger_DoorUnlock-component' (Door_Area-component closed, Door_Area-component closed)
+LAB: CHECK helper-lock2-not-local ok (a helper's hit waits for the master)
+LAB: CHECK helper-lock2-by-master ok (Door_Area-component closed, Door_Area-component closed)
+[SomniumMetroid] Co-op: the master is in another world - joining it again
+[SomniumMetroid] Co-op: asking Lab Master (player 1) for the game
+[SomniumMetroid] Co-op: joining Lab Master's game: 'Metroid2.pak' room 1, 64 rooms' layers, 1 memory relays
+LAB: CHECK helper-followed-chozo ok (room 1)
+LAB: CHECK helper-beetle-puppet ok (at (102.01, -86.27, -9.24) (master (102.01, -86.27, -9.24)), anim 14, health 12.5/12.5)
+LAB: CHECK helper-beetle-died ok
+[SomniumMetroid] Co-op: helper, 2 player(s), 1 remote slot(s), enemy health x1.25
+[SomniumMetroid] Co-op: the master is in another world - joining it again
+[SomniumMetroid] Co-op: asking Lab Master (player 1) for the game
+[SomniumMetroid] Co-op: joining Lab Master's game: 'Metroid4.pak' room 0, 44 rooms' layers, 3 memory relays
+LAB: CHECK helper-followed-tallon ok (room 4)
+LAB: CHECK helper-remote-cannon FAIL (remote cannons shown 0)
+LAB: wrote coop_helper_tallon.png
+LAB: link: the master's process is gone - this client is the master now (the hand-over)
+[SomniumMetroid] Co-op: the master left - this client is the master now; the game goes on here
+[SomniumMetroid] Co-op: 1 player(s) - enemy and boss health x1.00 (13 enemies now)
+[SomniumMetroid] Co-op: script world runs here
+LAB: CHECK helper-became-master ok
+LAB: coop helper: script deliveries in 261, states 205, enemy states 83, shots 1, joins 3; checks 17, failed 1
+LAB: done
+LAB: exit 1
+=== verdicts
+LAB: CHECK master-players ok (players 2)
+LAB: CHECK master-health-scale ok (x1.25)
+LAB: CHECK master-hurt-sent ok
+LAB: CHECK master-lock-broken ok (Door_Area Outside closed, Door_Area Inside closed)
+LAB: CHECK master-helper-hit ok (damage messages 1)
+LAB: CHECK master-helper-followed-chozo ok
+LAB: CHECK master-beetle-health ok (10 -> 12.5)
+LAB: CHECK master-beetle-killed-by-helper ok (health 0)
+LAB: CHECK master-helper-followed-tallon ok
+LAB: CHECK helper-joined ok ('Metroid1.pak' room 0 at (-87.86, 226.49, 0.45))
+LAB: CHECK helper-players ok (players 2)
+LAB: CHECK helper-health-scale ok (x1.25)
+LAB: CHECK helper-saw-shot ok (shots 1)
+LAB: CHECK helper-got-hurt ok (hurts 1)
+LAB: CHECK helper-unlocks ok (space jump 1, suit 2)
+LAB: CHECK helper-scripts-mirrored ok (script deliveries 75)
+LAB: CHECK helper-no-save ok
+LAB: CHECK helper-lock1-mirrored ok (doors open here 0, at the master 0: Door_Area Outside closed, Door_Area Inside closed)
+LAB: CHECK helper-lock2-not-local ok (a helper's hit waits for the master)
+LAB: CHECK helper-lock2-by-master ok (Door_Area-component closed, Door_Area-component closed)
+LAB: CHECK helper-followed-chozo ok (room 1)
+LAB: CHECK helper-beetle-puppet ok (at (102.01, -86.27, -9.24) (master (102.01, -86.27, -9.24)), anim 14, health 12.5/12.5)
+LAB: CHECK helper-beetle-died ok
+LAB: CHECK helper-followed-tallon ok (room 4)
+LAB: CHECK helper-remote-cannon FAIL (remote cannons shown 0)
+LAB: CHECK helper-became-master ok

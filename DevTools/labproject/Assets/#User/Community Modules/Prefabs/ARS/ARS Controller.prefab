@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5056257327188055534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4307320975474578343}
+  - component: {fileID: 4147694962656337325}
+  m_Layer: 0
+  m_Name: ARS Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4307320975474578343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5056257327188055534}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0029782208, y: -0.7045179, z: -0.7096626, w: -0.004969076}
+  m_LocalPosition: {x: 3.42, y: 0.842, z: 7.309}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: -90.447, y: -159.16699, z: -21.47699}
+--- !u!114 &4147694962656337325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5056257327188055534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd2040b9c6bd22d45a0178145fc26a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _arsRefreshRate: 50
+  _audioSourceChannel: 0
+  _fftMaxFreq: 16000
+  _fftSize: 1024
+  _audioSource: {fileID: 0}
+  _fftWindowType: 0
+  _gainARSShaders: 1
+  _gainChannel1: 1
+  _gainChannel2: 1
+  _gainChannel3: 1
+  _gainChannel4: 1
+  _enableARSTexture: 1
+  _arsRenderTexture: {fileID: 8600000, guid: 30543b9cd190a104da1ee755064164f0, type: 2}
+  _enableARSChannels: 1
+  _channel1: {x: 0, y: 150}
+  _channel2: {x: 150, y: 500}
+  _channel3: {x: 500, y: 4000}
+  _channel4: {x: 4000, y: 16000}
+  _editorPreviewTexture: {fileID: 2800000, guid: dcdb3d771beec894594557e20c58ad56,
+    type: 3}

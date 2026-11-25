@@ -1,0 +1,26 @@
+LAB: CHECK master-players ok (players 2)
+LAB: CHECK master-health-scale ok (x1.25)
+LAB: CHECK master-hurt-sent ok
+LAB: CHECK master-lock-broken ok (Door_Area Outside closed, Door_Area Inside closed)
+LAB: CHECK master-helper-hit ok (damage messages 1)
+LAB: CHECK master-helper-followed-chozo ok
+LAB: CHECK master-beetle-health ok (10 -> 12.5)
+LAB: CHECK master-beetle-killed-by-helper ok (health 0)
+LAB: CHECK master-helper-followed-tallon ok
+LAB: CHECK helper-joined ok ('Metroid1.pak' room 0 at (-87.86, 226.49, 0.45))
+LAB: CHECK helper-players ok (players 2)
+LAB: CHECK helper-health-scale ok (x1.25)
+LAB: CHECK helper-saw-shot ok (shots 1)
+LAB: CHECK helper-got-hurt ok (hurts 1)
+LAB: CHECK helper-unlocks ok (space jump 1, suit 2)
+LAB: CHECK helper-scripts-mirrored ok (script deliveries 75)
+LAB: CHECK helper-no-save ok
+LAB: CHECK helper-lock1-mirrored ok (doors open here 0, at the master 0: Door_Area Outside closed, Door_Area Inside closed)
+LAB: CHECK helper-lock2-not-local ok (a helper's hit waits for the master)
+LAB: CHECK helper-lock2-by-master ok (Door_Area-component closed, Door_Area-component closed)
+LAB: CHECK helper-followed-chozo ok (room 1)
+LAB: CHECK helper-beetle-puppet ok (at (102.01, -86.27, -9.24) (master (102.01, -86.27, -9.24)), anim 14, health 12.5/12.5)
+LAB: CHECK helper-beetle-died ok
+LAB: CHECK helper-followed-tallon ok (room 4)
+LAB: CHECK helper-remote-cannon FAIL (remote cannons shown 0)
+LAB: CHECK helper-became-master ok

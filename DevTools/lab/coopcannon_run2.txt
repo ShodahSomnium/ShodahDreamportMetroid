@@ -1,0 +1,92 @@
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit: master 0, helper 1
+=== lab_coop_master.log
+LAB: coop: lab link as master on port 47622
+[SomniumMetroid] Co-op: ready (lab link); alone you are the master of your own game
+LAB: game running: area 0 'Exterior Docking Hangar'
+LAB: coopcannon master: waiting for the helper
+[SomniumMetroid] Co-op: master, 1 player(s), 0 remote slot(s), enemy health x1.00
+[SomniumMetroid] Co-op: 2 player(s) - enemy and boss health x1.25 (0 enemies now)
+[SomniumMetroid] Co-op: the game sent to Lab Helper (player 2): 'Metroid1.pak' room 0, 28 rooms' layers, 1 memory relays
+[SomniumMetroid] Co-op: room 0 'Exterior Docking Hangar' census to player 2: 59 entities changed
+[SomniumMetroid] Co-op: room 1 'Air Lock' census to player 2: 3 entities changed
+LAB: coopcannon master: charge 0.00, shots fired 1, input off True, cinema True, tablet False, energy 99, morphed False, visor 0, holstered False, changing False, charge beam True, vr False
+LAB: coopcannon master: a cutscene runs (input off True) - skipped
+LAB: coopcannon master: fired beam 2 - shots fired 4, my slot presses 2
+LAB: coopcannon master: fired beam 1 - shots fired 5, my slot presses 3
+LAB: coopcannon master: a cutscene runs (input off True) - skipped
+LAB: coopcannon master: fired beam 3 - shots fired 6, my slot presses 4
+LAB: coopcannon master: a cutscene runs (input off True) - skipped
+LAB: coopcannon master: fired beam 0 - shots fired 7, my slot presses 5
+[SomniumMetroid] Co-op: 1 player(s) - enemy and boss health x1.00 (0 enemies now)
+LAB: done
+LAB: exit 0
+=== lab_coop_helper.log
+556:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+707:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+LAB: coop: lab link as helper on port 47622
+[SomniumMetroid] Co-op: ready (lab link); alone you are the master of your own game
+[SomniumMetroid] Co-op: asking Lab Master (player 1) for the game
+[SomniumMetroid] Co-op: helper, 2 player(s), 1 remote slot(s), enemy health x1.25
+LAB: game running: area 0 'Exterior Docking Hangar'
+[SomniumMetroid] Co-op: joining Lab Master's game: 'Metroid1.pak' room 0, 28 rooms' layers, 1 memory relays
+[SomniumMetroid] Co-op: script world mirrors the master's
+LAB: coopcannon helper: waiting to join
+LAB: coopcannon helper: stand-in avatar 'Lab remote avatar' (humanoid)
+[SomniumMetroid] Co-op: Lab Master's arm cannon on their avatar (at their head: a monitor)
+LAB: CHECK cannon-shown ok (remote cannons 1)
+LAB: CHECK cannon-at-avatar ok (cannon 0.35 m from the avatar's head)
+LAB: wrote coopcannon_idle.png
+LAB: wrote coopcannon_idle_side.png
+LAB: CHECK cannon-charging FAIL (charge 0.00)
+LAB: wrote coopcannon_charging.png
+LAB: wrote coopcannon_charged_shot.png
+LAB: CHECK cannon-charge-released ok (charge 0.00)
+LAB: wrote coopcannon_change_0.png
+LAB: CHECK cannon-beam-2 ok (shows beam 2)
+LAB: wrote coopcannon_beam_2.png
+LAB: coopcannon helper: presses 2 (was 1), the master's slot presses 2
+LAB: wrote coopcannon_fired_2.png
+LAB: CHECK cannon-fired-2 ok
+LAB: wrote coopcannon_change_1.png
+LAB: CHECK cannon-beam-1 ok (shows beam 1)
+LAB: wrote coopcannon_beam_1.png
+LAB: coopcannon helper: presses 3 (was 2), the master's slot presses 3
+LAB: wrote coopcannon_fired_1.png
+LAB: CHECK cannon-fired-1 ok
+LAB: wrote coopcannon_change_2.png
+LAB: CHECK cannon-beam-3 ok (shows beam 3)
+LAB: wrote coopcannon_beam_3.png
+LAB: coopcannon helper: presses 4 (was 3), the master's slot presses 4
+LAB: wrote coopcannon_fired_3.png
+LAB: CHECK cannon-fired-3 ok
+LAB: wrote coopcannon_change_3.png
+LAB: CHECK cannon-beam-0 ok (shows beam 0)
+LAB: wrote coopcannon_beam_0.png
+LAB: coopcannon helper: presses 5 (was 4), the master's slot presses 5
+LAB: wrote coopcannon_fired_0.png
+LAB: CHECK cannon-fired-0 ok
+LAB: wrote coopcannon_missile.png
+LAB: CHECK cannon-missile ok
+LAB: wrote coopcannon_missile_reload.png
+LAB: CHECK cannon-in-hand ok (0.000 m from the stand-in's right hand)
+LAB: wrote coopcannon_hand.png
+LAB: wrote coopcannon_hand_side.png
+LAB: coopcannon helper: presses replayed 5, missiles 1; checks 14, failed 1
+LAB: done
+LAB: exit 1
+=== verdicts
+LAB: CHECK cannon-shown ok (remote cannons 1)
+LAB: CHECK cannon-at-avatar ok (cannon 0.35 m from the avatar's head)
+LAB: CHECK cannon-charging FAIL (charge 0.00)
+LAB: CHECK cannon-charge-released ok (charge 0.00)
+LAB: CHECK cannon-beam-2 ok (shows beam 2)
+LAB: CHECK cannon-fired-2 ok
+LAB: CHECK cannon-beam-1 ok (shows beam 1)
+LAB: CHECK cannon-fired-1 ok
+LAB: CHECK cannon-beam-3 ok (shows beam 3)
+LAB: CHECK cannon-fired-3 ok
+LAB: CHECK cannon-beam-0 ok (shows beam 0)
+LAB: CHECK cannon-fired-0 ok
+LAB: CHECK cannon-missile ok
+LAB: CHECK cannon-in-hand ok (0.000 m from the stand-in's right hand)

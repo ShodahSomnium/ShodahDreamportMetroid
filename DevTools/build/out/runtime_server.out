@@ -1,0 +1,2 @@
+Assets\#User\SomniumMetroid\Game\Net\SceneNetworking.cs(347,67): warning CS0618: 'SimulationMessagePtr' is obsolete: 'Not used anymore'
+Assets\#User\SomniumMetroid\Game\Enemy\MpSpacePirate.cs(72,21): warning CS0414: The field 'MpSpacePirate._after' is assigned but its value is never used

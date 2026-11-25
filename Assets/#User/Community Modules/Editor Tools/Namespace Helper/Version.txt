@@ -1,0 +1,11 @@
+V1.3, 2026-10-15
+	Scripting API: NamespaceHelperUtility (RenameAll, GetStatus, batch mode entry), used by the inspector too.
+	Rename All keeps sub-namespaces (Old.UI becomes New.UI).
+	Only namespace declarations at the start of a line are changed, never comments.
+	Only changed files are backed up.
+
+V1.2, 2026-02-17
+	New Simplified UI
+
+V1.1, 2025-10-07
+	Initial version.

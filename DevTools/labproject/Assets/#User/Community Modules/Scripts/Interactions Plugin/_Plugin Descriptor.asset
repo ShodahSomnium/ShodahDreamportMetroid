@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349264242e6089c44b9278d0bc2e8637, type: 3}
+  m_Name: _Plugin Descriptor
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::PluginDescriptor
+  Name: Interactions Plugin
+  Author: Denevraut
+  Version: 4.0.0
+  DateVersion: 18/10/2026
+  Notes: "4.0.0 - Community Modules 4.0 (Photon Fusion 2.1.3).\n- PlayerAnchor: the Exit action works, gravity and speed are always restored.\n- Grab examples draw their visuals with XRI Predicted Visuals (no physics-rate stutter)."
+  Scripts:
+  - {fileID: 11500000, guid: 9f565ffa02e659140b6f79ed7096a1b9, type: 3}
+  - {fileID: 11500000, guid: f6fbece5260b09a4ca6edbf94bf8a59b, type: 3}
+  - {fileID: 11500000, guid: 4a5972807a10c77459ec5459d9fb1bd1, type: 3}
+  - {fileID: 11500000, guid: 54ae80fb8b8aa5843bec7ef8ed9947a8, type: 3}
+  - {fileID: 11500000, guid: 68dfab6642195074f8f866b4c80f6fe4, type: 3}
+  - {fileID: 11500000, guid: b54aa4ca7e0e37a4e8e14ffe4a39c7f5, type: 3}
+  - {fileID: 11500000, guid: 0caaad3678ceeef408d12d12f3e02094, type: 3}
+  - {fileID: 11500000, guid: 7ac5a6d30aea7ce45b7fe0ba773af176, type: 3}
+  - {fileID: 11500000, guid: d22c8efb7c469a943ab855182801089e, type: 3}
+  - {fileID: 11500000, guid: 92d78449dfd23a44aac2b9837130aa96, type: 3}
+  - {fileID: 11500000, guid: d3babb84502a94344b81a024928c0e4f, type: 3}
+  - {fileID: 11500000, guid: ecc6eaaa6b4cc2b44a32065a0d1a3de7, type: 3}
+  - {fileID: 11500000, guid: 6199e91631495454fbb364aed1fbc886, type: 3}
+  Dependencies: []

@@ -1,0 +1,15 @@
+{
+    "Id": "20261021-005002_step2",
+    "Label": "Old Community Modules scripts",
+    "CreatedLocal": "2026-10-21 00:50:02",
+    "Step": 2,
+    "Scopes": [
+        "Assets/#User/Community Modules",
+        "Assets/#User/SomniumMetroid/Editor/MpLabLink.cs",
+        "Assets/#User/SomniumMetroid/Game/Net/MpGame.Coop.cs",
+        "Assets/#User/SomniumMetroid/Game/Net/MpNet.cs",
+        "Assets/#User/SomniumMetroid/Game/Net/SceneNetworking.cs"
+    ],
+    "MissingScopes": [],
+    "Restored": false
+}

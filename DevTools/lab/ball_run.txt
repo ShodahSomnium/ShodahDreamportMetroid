@@ -1,0 +1,53 @@
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit 0 (project D:\Dreamport\Metroid Prime\METROIDPRIME\DevTools\labproject)
+497:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+601:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumMetroid] Metroid Prime Dreamport Iteration 1.1 (2026-10-16) - Iteration 1.1 (gun polish): the game's own gun effects (each beam's shots, trails, impacts with their sounds, muzzle flash, the charge glow and its aux muzzle, timed as on the GameCube), the game's combat reticle on the monitor, shots pass closed doors the way the game lets them (the hangar's upper lock buttons can be shot).
+[SomniumMetroid] Disc: D:\Dreamport\Metroid Prime\ISO\Metroid Prime (Europe) (En,Fr,De,Es,It).ciso (GM8P01)
+[SomniumMetroid] Disc: 22286 resources in 18 archives (GM8P01, PAL), world 'Metroid1.pak' with 28 areas, read in 145 ms
+[SomniumMetroid] Scripts: area 12 'Deck Beta Conduit Hall': 150 entities, 7 models placed
+[SomniumMetroid] World: area 12 'Deck Beta Conduit Hall' ready: 99 models, 1324 collision triangles, 150 script objects, 61 new textures, 4 actor models; parsed in 96 ms, built over 131 ms
+[SomniumMetroid] Visors: thermal palette 16 colours, x-ray palette 256 colours
+[SomniumMetroid] Sound: 72 sound groups, 3173 effects, lookup 5245
+[SomniumMetroid] Start: area 12 'Deck Beta Conduit Hall', spawn at game (12.76, -161.08, -36.66) facing -179 deg
+[SomniumMetroid] Samus: energy 99, missiles 5/5, beams Power Ice Wave Plasma (all beams and visors unlocked for testing)
+[SomniumMetroid] Gun: GunRes names 43; Power CMDL 19AE626C shot 120 u/s (Power: 20 animations (18 ANIMs), 50 bones); Ice CMDL 19AE626C shot 48 u/s (Ice: 20 animations (20 ANIMs), 50 bones); Wave CMDL 19AE626C shot 120 u/s (Wave: 20 animations (20 ANIMs), 50 bones); Plasma CMDL 19AE626C shot 120 u/s (Plasma: 20 animations (20 ANIMs), 50 bones)
+[SomniumMetroid] Gun effects: 31 textures, 9 models
+[SomniumMetroid] HUD: built from the game's frames (7 frames: FRME_BaseHud, FRME_CombatHud, FRME_Helmet, FRME_ScanHud, FRME_ThermalHud, FRME_XRayHudNew, FRME_ScanHudFlat)
+[SomniumMetroid] Reticle: the game's combat reticle (13 models, 14 charge ticks, blends SrcAlpha+One) for the monitor view
+[SomniumMetroid] Tablet: searching for the Somnium tablet (the "METROID PRIME" app goes on its home screen; VR: tap Y, monitor: Tab).
+[SomniumMetroid] Start: player placed at (8.42, 975.86, -106.32) (editor: CharacterController 'PlayerController' moved)
+LAB: game running: area 12 'Deck Beta Conduit Hall'
+LAB: goal 'into ball Trigger' at (13.26, -181.60, -35.56) flags 1000
+[SomniumMetroid] Scripts: area 14 'Biotech Research Area 1': 174 entities, 25 models placed
+[SomniumMetroid] World: area 14 'Biotech Research Area 1' ready: 240 models, 2340 collision triangles, 236 script objects, 174 new textures, 12 actor models; parsed in 270 ms, built over 143 ms
+[SomniumMetroid] Scripts: area 10 'Connection Elevator to Deck Beta': 105 entities, 10 models placed
+[SomniumMetroid] World: area 10 'Connection Elevator to Deck Beta' ready: 104 models, 592 collision triangles, 105 script objects, 59 new textures, 8 actor models; parsed in 91 ms, built over 80 ms
+[SomniumMetroid] Samus: morph ball at game (13.26, -185.60, -35.90)
+LAB: morphed True at (13.42, -185.15, -35.95)
+LAB: ball (13.48, -184.50, -35.95) speed 8.4 to goal 2.9
+LAB: wrote ball_00.png
+LAB: ball (13.35, -179.59, -35.95) speed 3.3 to goal 2.1
+LAB: wrote ball_01.png
+LAB: ball (13.51, -183.36, -35.95) speed 5.2 to goal 1.8
+LAB: wrote ball_02.png
+LAB: ball (13.40, -180.46, -35.95) speed 8.2 to goal 1.2
+LAB: wrote ball_03.png
+LAB: ball (13.29, -181.40, -35.95) speed 10.4 to goal 0.4
+LAB: wrote ball_04.png
+LAB: ball (13.30, -183.03, -35.95) speed 5.9 to goal 1.5
+LAB: wrote ball_05.png
+LAB: ball (13.12, -179.98, -35.95) speed 2.7 to goal 1.7
+LAB: wrote ball_06.png
+LAB: ball (13.26, -181.32, -35.95) speed 9.2 to goal 0.5
+LAB: wrote ball_07.png
+LAB: ball (13.48, -183.11, -35.95) speed 1.0 to goal 1.6
+LAB: wrote ball_08.png
+LAB: ball (13.36, -182.34, -35.95) speed 7.1 to goal 0.8
+LAB: wrote ball_09.png
+[SomniumMetroid] Tablet: not linked after 20 s - no transform with a TabletControl component, and none named 'Tablet.XR(...' or 'Tablet.NonXR(...', in MasterScene (NOT loaded) or 1 other loaded scene(s); 'Simulator' objects (remote tablets) and the world's own subtrees skipped; still searching every 0.5 s; 41 searches, slowest 3.9 ms. The game plays with the options of options.txt.
+LAB: the ball did NOT reach 'into ball Trigger'
+LAB: wrote ball_goal.png
+LAB: unmorphed: False (no headroom here)
+LAB: done
+LAB: exit 0

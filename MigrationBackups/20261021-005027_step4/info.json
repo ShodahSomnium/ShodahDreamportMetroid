@@ -1,0 +1,11 @@
+{
+    "Id": "20261021-005027_step4",
+    "Label": "Before Photon 2.1 import",
+    "CreatedLocal": "2026-10-21 00:50:27",
+    "Step": 4,
+    "Scopes": [
+        "Assets/Photon"
+    ],
+    "MissingScopes": [],
+    "Restored": false
+}

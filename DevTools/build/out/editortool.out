@@ -1,0 +1,2 @@
+Assets\#User\SomniumMetroid\Editor\MpLabCinema.cs(56,19): warning CS0219: The variable 'maxStep' is assigned but its value is never used
+Assets\#User\SomniumMetroid\Editor\MpLabCinema.cs(59,18): warning CS0219: The variable 'havePrev' is assigned but its value is never used

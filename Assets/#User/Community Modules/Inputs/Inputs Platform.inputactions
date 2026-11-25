@@ -1,0 +1,63 @@
+{
+    "version": 1,
+    "name": "Inputs Platform",
+    "maps": [
+        {
+            "name": "Boat",
+            "id": "e321c6d6-bc3c-4576-8718-14009064d613",
+            "actions": [
+                {
+                    "name": "Exit",
+                    "type": "Button",
+                    "id": "a94955c4-8b44-40dd-9db0-67427455fa28",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "97c18108-f68d-4d3f-b0eb-d3b89a422c75",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Exit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3a672a1c-1c58-4947-bdd2-e4ddbbddbb68",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Exit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "HTC Vive",
+            "bindingGroup": "HTC Vive",
+            "devices": [
+                {
+                    "devicePath": "<ViveController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Default",
+            "bindingGroup": "Default",
+            "devices": []
+        }
+    ]
+}

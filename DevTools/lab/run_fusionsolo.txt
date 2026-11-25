@@ -1,0 +1,38 @@
+unity exit 0 (project D:\Dreamport\Metroid Prime\METROIDPRIME)
+1182:NullReferenceException: Object reference not set to an instance of an object
+1240:NullReferenceException: Object reference not set to an instance of an object
+[SomniumMetroid] Metroid Prime Dreamport Iteration 1.7 (2026-11-10) - Iteration 1.7 (co-op live fix): this world registers its own network objects (an uploaded world has no Community Modules networking, so nobody could join), the intro is skipped by default. 1.6 (network upgrade): Photon Fusion 2.1.3 and Community Modules 4.0, as Somnium now runs (2.0 worlds no longer sync); co-op unchanged otherwise.
+[SomniumMetroid] Disc: D:\Dreamport\Metroid Prime\ISO\Metroid Prime (Europe) (En,Fr,De,Es,It).ciso (GM8P01)
+[SomniumMetroid] Disc: 22286 resources in 18 archives (GM8P01, PAL), world 'Metroid1.pak' with 28 areas, read in 183 ms
+[SomniumMetroid] Scripts: area 0 'Exterior Docking Hangar': 771 entities, 135 models placed
+[SomniumMetroid] World: area 0 'Exterior Docking Hangar' ready: 544 models, 4456 collision triangles, 1028 script objects, 158 new textures, 44 actor models; parsed in 292 ms, built over 273 ms
+[SomniumMetroid] Visors: thermal palette 16 colours, x-ray palette 256 colours
+[SomniumMetroid] Sound: 72 sound groups, 3173 effects, lookup 5245
+[SomniumMetroid] Start: area 0 'Exterior Docking Hangar', spawn at game (-87.86, 224.89, 0.50) facing -179 deg
+[SomniumMetroid] Samus: energy 99, missiles 15/15, beams Power Ice Wave Plasma (all beams and visors unlocked for testing)
+[SomniumMetroid] Gun: GunRes names 43; Power CMDL 19AE626C shot 120 u/s (Power: 20 animations (18 ANIMs), 50 bones); Ice CMDL 19AE626C shot 48 u/s (Ice: 20 animations (20 ANIMs), 50 bones); Wave CMDL 19AE626C shot 120 u/s (Wave: 20 animations (20 ANIMs), 50 bones); Plasma CMDL 19AE626C shot 120 u/s (Plasma: 20 animations (20 ANIMs), 50 bones)
+[SomniumMetroid] Gun effects: 33 textures, 13 models
+[SomniumMetroid] HUD: built from the game's frames (7 frames: FRME_BaseHud, FRME_CombatHud, FRME_Helmet, FRME_ScanHud, FRME_ThermalHud, FRME_XRayHudNew, FRME_ScanHudFlat)
+[SomniumMetroid] Reticle: the game's combat reticle (13 models, 14 charge ticks, blends SrcAlpha+One) for the monitor view
+[SomniumMetroid] Tablet: searching for the Somnium tablet (the "METROID PRIME" app goes on its home screen; VR: tap Y, monitor: Tab).
+[SomniumMetroid] Start: player not placed yet (editor: nothing to move)
+[SomniumMetroid] Net: the scene's own SceneNetworking runs (CommunityModules.SceneNetworking)
+[SomniumMetroid] Co-op: ready (Fusion shared session); alone you are the master of your own game
+[SomniumMetroid] Net: scene objects found (world record, events, 16 player slots)
+LAB: game running: area 0 'Exterior Docking Hangar'
+LAB: Community Modules SceneNetworking removed: 1; runners before: 0
+LAB: our SceneNetworking present: True
+[SomniumMetroid] Co-op: helper, 1 player(s), 0 remote slot(s), enemy health x1.00
+LAB: runner started: True Ok, running True, local player [Player:1] real True
+[SomniumMetroid] Scripts: area 1 'Air Lock': 118 entities, 21 models placed
+[SomniumMetroid] World: area 1 'Air Lock' ready: 79 models, 424 collision triangles, 137 script objects, 15 new textures, 9 actor models; parsed in 12 ms, built over 21 ms
+[SomniumMetroid] Start: player not placed yet (editor: nothing to move)
+LAB: CHECK fusion-registered ok (18 of 18 world network objects valid)
+LAB: CHECK fusion-ready ok (our SceneNetworking: registered on our join)
+LAB: CHECK fusion-online ok
+LAB: CHECK fusion-slot ok (slot 1)
+LAB: fusion: master False, world record valid False, remotes 0
+[SomniumMetroid] Net: claim dropped (the room is not up)
+[SomniumMetroid] Start: player not placed yet (editor: nothing to move)
+LAB: done
+LAB: exit 0

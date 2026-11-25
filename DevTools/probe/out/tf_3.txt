@@ -1,0 +1,32 @@
+*L0 00030001 Dock 'Dock'
+*L0 00030002 Dock 'Dock'
+        MaxReached -> SetToZero -> Relay 'Relay - Make Opening Visible'
+*L0 00030003 SpawnPoint 'Spawn point'
+*L0 00030004 AreaAttributes ''
+*L0 00030006 Actor 'Actor - Hatchdoor Closed Static'
+*L0 00030007 Trigger 'Trigger - Load/Unload Areas' flags 1 dmg 0 ext (3.49, 3.49, 5.64)
+        Entered -> Activate -> Actor 'Actor - Hatchdoor Closed Static'
+        Entered -> SetToZero -> Dock 'Dock'
+        Entered -> SetToMax -> Dock 'Dock'
+        Entered -> Increment -> SpecialFunction 'SpecialFunction'
+*L0 00030008 Platform 'Platform - 00h Hatch Closed'
+*L0 00030009 MemoryRelay 'Memory Relay - Play Hatch Opening Animation'
+        Active -> Deactivate -> [a1] Platform 'Platform - Hatch Closed'
+*L0 0003000A Relay 'Relay - Make Opening Visible'
+        Zero -> Deactivate -> Platform 'Platform - 00h Hatch Closed'
+        Zero -> Increment -> Dock 'Dock'
+*L0 0003000B Trigger 'Trigger' flags 1 dmg 0 ext (4.64, 7.38, 6.52)
+        Entered -> Activate -> MemoryRelay 'Memory Relay - Play Hatch Opening Animation'
+        Inside -> Play -> Sound 'Sound - DoorSwing'
+*L0 0003000C SpecialFunction 'SpecialFunction' fn 16 '' 0 0 0 ints -1018224385 2 0
+*L0 0003000D Trigger 'Trigger' flags 1 dmg 0 ext (1, 4, 8)
+        Entered -> Increment -> SpecialFunction 'SpecialFunction_Increment Fire In Airlock'
+*L0 0003000E SpecialFunction 'SpecialFunction_Increment Fire In Airlock' fn 0 '' 0 0 0 ints -1368854321 2 0
+*L0 0003000F RoomAcoustics 'RoomAcoustics-component'
+*L0 00030010 Actor 'Actor'
+*L0 00030011 Trigger 'Trigger_BlockBack' flags 1 dmg 0 ext (3, 1, 6)
+        Entered -> Activate -> Actor 'Actor'
+        Entered -> Play -> Sound 'Sound - DoorFall 1'
+*L0 00030012 Sound 'Sound - DoorFall 1'
+*L0 00030013 Sound 'Sound - DoorFall 2'
+*L0 00030014 Sound 'Sound - DoorSwing'

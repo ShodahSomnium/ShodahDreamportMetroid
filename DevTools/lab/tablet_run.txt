@@ -1,0 +1,96 @@
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit 1 (project D:\Dreamport\Metroid Prime\METROIDPRIME\DevTools\labproject)
+407:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+512:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+1171:SomniumSpace.Worlds.SomniumMetroid.Game.MpAudio/<>c__DisplayClass61_0:<Decode>b__1 (object,System.Exception) (at Assets/#User/SomniumMetroid/Game/Audio/MpAudio.cs:817)
+2968:LAB: EXCEPTION System.Exception: the tablet lab: 1 of 51 checks failed
+[SomniumMetroid] Metroid Prime Dreamport Iteration 1.1 (2026-10-16) - Iteration 1.1 (gun polish): the game's own gun effects (each beam's shots, trails, impacts with their sounds, muzzle flash, the charge glow and its aux muzzle, timed as on the GameCube), the game's combat reticle on the monitor, shots pass closed doors the way the game lets them (the hangar's upper lock buttons can be shot).
+[SomniumMetroid] Disc: D:\Dreamport\Metroid Prime\ISO\Metroid Prime (Europe) (En,Fr,De,Es,It).ciso (GM8P01)
+[SomniumMetroid] Disc: 22286 resources in 18 archives (GM8P01, PAL), world 'Metroid1.pak' with 28 areas, read in 135 ms
+[SomniumMetroid] Scripts: area 0 'Exterior Docking Hangar': 771 entities, 135 models placed
+[SomniumMetroid] World: area 0 'Exterior Docking Hangar' ready: 544 models, 4456 collision triangles, 1028 script objects, 153 new textures, 39 actor models; parsed in 121 ms, built over 202 ms
+[SomniumMetroid] Visors: thermal palette 16 colours, x-ray palette 256 colours
+[SomniumMetroid] Sound: 72 sound groups, 3173 effects, lookup 5245
+[SomniumMetroid] Start: area 0 'Exterior Docking Hangar', spawn at game (-87.86, 224.89, 0.50) facing -179 deg
+[SomniumMetroid] Samus: energy 99, missiles 15/15, beams Power Ice Wave Plasma (all beams and visors unlocked for testing)
+[SomniumMetroid] Gun: GunRes names 43; Power CMDL 19AE626C shot 120 u/s (Power: 20 animations (18 ANIMs), 50 bones); Ice CMDL 19AE626C shot 48 u/s (Ice: 20 animations (20 ANIMs), 50 bones); Wave CMDL 19AE626C shot 120 u/s (Wave: 20 animations (20 ANIMs), 50 bones); Plasma CMDL 19AE626C shot 120 u/s (Plasma: 20 animations (20 ANIMs), 50 bones)
+[SomniumMetroid] Gun effects: 28 textures, 9 models
+[SomniumMetroid] HUD: built from the game's frames (6 frames: FRME_BaseHud, FRME_CombatHud, FRME_Helmet, FRME_ScanHud, FRME_ThermalHud, FRME_XRayHudNew)
+[SomniumMetroid] Reticle: the game's combat reticle (13 models, 14 charge ticks, blends SrcAlpha+One) for the monitor view
+[SomniumMetroid] Tablet: searching for the Somnium tablet (the "METROID PRIME" app goes on its home screen; VR: tap Y, monitor: Tab).
+[SomniumMetroid] Start: player placed at (-57.99, 1000.38, 148.42) (editor: CharacterController 'PlayerController' moved)
+[SomniumMetroid] World: sky A12B691E built (model radius 68 m, drawn out at 0.8 x the far plane, after the opaque world)
+LAB: game running: area 0 'Exterior Docking Hangar'
+LAB: CHECK ok: the app started (MpTabletApp.Start)
+[SomniumMetroid] Scripts: area 1 'Air Lock': 118 entities, 21 models placed
+[SomniumMetroid] World: area 1 'Air Lock' ready: 79 models, 424 collision triangles, 137 script objects, 14 new textures, 8 actor models; parsed in 18 ms, built over 12 ms
+LAB: CHECK ok: no tablet: not linked, IsOpen false
+[SomniumMetroid] Tablet: linked - 'Tablet.XR(Clone)' under '(scene root)' in scene 'Metroid Prime Scene', desktop, root by type TabletControl; TabsContainer by type, HomeTab by type, TabletStatusBarView by type; 2 tabs (2 with a ContentView), home grid 6 buttons, home 960x1080 (Small), 6 of the grid's buttons shown, UI layer 5, canvas layer 9, raycaster TrackedDeviceGraphicRaycaster, mesh Home yes; MISSING: Animator; 2 searches, slowest 4.1 ms.
+[SomniumMetroid] Tablet: the options page was built into the app frame in 51 ms (592 graphics).
+LAB: link report: 'Tablet.XR(Clone)' under '(scene root)' in scene 'Metroid Prime Scene', desktop, root by type TabletControl; TabsContainer by type, HomeTab by type, TabletStatusBarView by type; 2 tabs (2 with a ContentView), home grid 6 buttons, home 960x1080 (Small), 6 of the grid's buttons shown, UI layer 5, canvas layer 9, raycaster TrackedDeviceGraphicRaycaster, mesh Home yes; MISSING: Animator
+LAB: CHECK ok: found by the client's component type names, every part present (the stand-in has no Animator: the open state is read from the CanvasGroup)
+LAB: CHECK ok: the cloned home button never woke a client script
+LAB: CHECK ok: the METROID PRIME home button is the first child of the home grid
+LAB: CHECK ok: the clone has no client script left
+LAB: CHECK ok: its caption reads METROID PRIME
+LAB: CHECK ok: its icon is painted
+LAB: CHECK ok: the options page is built into the app's frame
+LAB: CHECK ok: the app canvas mirrors the home canvas's raycaster (tracked device)
+LAB: wrote tablet_1_home_screen.png
+[SomniumMetroid] Tablet: METROID PRIME opened (app button, size Small->Large).
+LAB: pointer ray at 'MP.Tablet.Button': top graphic 'Icon', click taken by 'MP.Tablet.Button'
+LAB: CHECK ok: the laser's click on the home button was taken
+[SomniumMetroid] Music: /audio/int_introcinemaL.dsp|/audio/int_introcinemaR.dsp decoded (3156899 samples at 32000 Hz, stereo)
+[SomniumMetroid] Music: playing /audio/int_introcinemaL.dsp|/audio/int_introcinemaR.dsp (once)
+LAB: CHECK ok: the app is open (IsOpen): the client's Tabs hidden, the app's canvas shown
+LAB: CHECK ok: a Small tablet was pressed to Large, Back is shown
+LAB: CHECK ok: all 592 graphics are on the tablet's UI layer (0 elsewhere)
+LAB: CHECK ok: the frame fits the Large screen (1.256 x)
+LAB: wrote tablet_2_hud.png
+LAB: CHECK ok: the page follows a change made elsewhere (1.50 m)
+[SomniumMetroid] Tablet: 'FURTHER' pressed (pointer 7).
+LAB: pointer ray at 'Button FURTHER': top graphic 'Button FURTHER', click taken by 'Button FURTHER'
+LAB: CHECK ok: FURTHER moves the HUD 0.1 m away (1.6)
+[SomniumMetroid] Tablet: 'CLOSER' pressed (pointer 7).
+LAB: pointer ray at 'Button CLOSER': top graphic 'Button CLOSER', click taken by 'Button CLOSER'
+LAB: CHECK ok: CLOSER brings it back (1.5)
+LAB: CHECK ok: the Size slider writes HudSize, quantized (1.23)
+LAB: CHECK ok: options.txt was written after the drag rested (C:/Users/derii/AppData/LocalLow/DefaultCompany/SomniumSpaceSDK\MetroidDreamport\options.txt)
+[SomniumMetroid] Tablet: 'ON' pressed (pointer 7).
+LAB: pointer ray at 'HUD shown Toggle': top graphic 'HUD shown Toggle', click taken by 'HUD shown Toggle'
+LAB: CHECK ok: the HUD toggle flips HudShown (False)
+[SomniumMetroid] Tablet: 'OFF' pressed (pointer 7).
+LAB: pointer ray at 'HUD shown Toggle': top graphic 'HUD shown Toggle', click taken by 'HUD shown Toggle'
+LAB: CHECK ok: and back
+LAB: CHECK ok: a ray at the edge ends on the app's own backdrop, never the client's tabs ('MP.Tablet.App')
+[SomniumMetroid] Tablet: 'ARM CANNON' pressed (pointer 7).
+[SomniumMetroid] Tablet: tab ARM CANNON.
+LAB: pointer ray at 'Button ARM CANNON': top graphic 'Button ARM CANNON', click taken by 'Button ARM CANNON'
+LAB: CHECK ok: the ARM CANNON tab
+[SomniumMetroid] Tablet: 'UP' pressed (pointer 7).
+LAB: pointer ray at 'Button UP': top graphic 'Button UP', click taken by 'Button UP'
+LAB: CHECK ok: the pitch UP step (2 deg)
+LAB: wrote tablet_3_cannon.png
+[SomniumMetroid] Tablet: 'SOUND & CONTROLS' pressed (pointer 7).
+[SomniumMetroid] Tablet: tab SOUND & CONTROLS.
+LAB: pointer ray at 'Button SOUND & CONTROLS': top graphic 'Button SOUND & CONTROLS', click taken by 'Button SOUND & CONTROLS'
+LAB: CHECK ok: the SOUND & CONTROLS tab
+[SomniumMetroid] Tablet: 'HARD' pressed (pointer 7).
+LAB: pointer ray at 'Button HARD': top graphic 'Button HARD', click taken by 'Button HARD'
+LAB: CHECK ok: HARD sets DamageTaken 2
+LAB: wrote tablet_4_sound.png
+[SomniumMetroid] Tablet: 'RESET TO DEFAULTS' pressed (pointer 7).
+LAB: pointer ray at 'Button RESET TO DEFAULTS': top graphic 'Button RESET TO DEFAULTS', click taken by 'Button RESET TO DEFAULTS'
+LAB: CHECK ok: RESET TO DEFAULTS puts the defaults back and shows them
+[SomniumMetroid] Tablet: 'GAME' pressed (pointer 7).
+[SomniumMetroid] Tablet: tab GAME.
+LAB: pointer ray at 'Button GAME': top graphic 'Button GAME', click taken by 'Button GAME'
+LAB: CHECK ok: the GAME tab
+LAB: CHECK ok: the status and save lines
+LAB: CHECK ok: a null command is greyed out (LOAD LAST SAVE)
+[SomniumMetroid] Tablet: 'SAVE' pressed (pointer 7).
+LAB: pointer ray at 'Button SAVE': top graphic 'Button SAVE', click taken by 'Button SAVE'
+LAB: CHECK ok: SAVE runs and its answer is in the status bar ('Saved (lab).')
+LAB: CHECK ok: the room list has 24 rows
+[SomniumMetroid] Tablet: '03   Lab room D' pressed (pointer 7).
+LAB: pointer ray at 'Room 3': top graphic 'Room 3', click taken by 'Room 3'

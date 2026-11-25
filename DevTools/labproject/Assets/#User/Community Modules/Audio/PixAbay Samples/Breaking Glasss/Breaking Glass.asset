@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-6947520988960621837
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: glass-shatter-3-100155_{-6947520988960621837}
+  m_AudioClip: {fileID: 8300000, guid: c1e005b879c44fe4f8d64efed4b79ed2, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4446644073837583104
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: breaking-glass-82857_{-4446644073837583104}
+  m_AudioClip: {fileID: 8300000, guid: 09787d27b9e9bb44192bc9648af93734, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1022161366064450566
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: breaking-glass-88411_{1022161366064450566}
+  m_AudioClip: {fileID: 8300000, guid: da2c8974f0b284f4d9243cc57c1597bc, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3988240116563254904
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: glass-bottle-smash-02-291048_{3988240116563254904}
+  m_AudioClip: {fileID: 8300000, guid: 292c25b37588afc4cbf741684cae28a8, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Breaking Glass
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: -9.210172, y: 7.2824574}
+  m_PitchRandomizationRange: {x: -115.66272, y: 146.18483}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -4446644073837583104}
+  - {fileID: 7028474573092527471}
+  - {fileID: 1022161366064450566}
+  - {fileID: 3988240116563254904}
+  - {fileID: -6947520988960621837}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &7028474573092527471
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: breaking-glass-84819_{7028474573092527471}
+  m_AudioClip: {fileID: 8300000, guid: 05033a80840d5cb46ac5c1896b67321b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

@@ -1,0 +1,98 @@
+waiting for another lab run to finish...
+lab copy ready: /d/Dreamport/Metroid Prime/METROIDPRIME/DevTools/labproject
+unity exit 0 (project D:\Dreamport\Metroid Prime\METROIDPRIME\DevTools\labproject)
+500:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+605:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+1002:SomniumSpace.Worlds.SomniumMetroid.Game.MpAudio/<>c__DisplayClass61_0:<Decode>b__1 (object,System.Exception) (at Assets/#User/SomniumMetroid/Game/Audio/MpAudio.cs:817)
+1122:SomniumSpace.Worlds.SomniumMetroid.Game.MpAudio/<>c__DisplayClass61_0:<Decode>b__1 (object,System.Exception) (at Assets/#User/SomniumMetroid/Game/Audio/MpAudio.cs:817)
+1961:SomniumSpace.Worlds.SomniumMetroid.Game.MpAudio/<>c__DisplayClass61_0:<Decode>b__1 (object,System.Exception) (at Assets/#User/SomniumMetroid/Game/Audio/MpAudio.cs:817)
+[SomniumMetroid] Metroid Prime Dreamport Iteration 1.2 (2026-10-17) - Iteration 1.2 (the frigate playable): the animated arm cannon (each beam's own shape, shoot, charge, missile hatch, beam change and fidgets, the suit forearm, closed from behind), the METROID PRIME tablet app (HUD distance, size, height, opacity; cannon fit; sound; save, load, rooms), enemies and the Parasite Queen, cutscenes on a cinema screen, elevators, the morph ball, pickups, save station, the escape countdown.
+[SomniumMetroid] Disc: D:\Dreamport\Metroid Prime\ISO\Metroid Prime (Europe) (En,Fr,De,Es,It).ciso (GM8P01)
+[SomniumMetroid] Disc: 22286 resources in 18 archives (GM8P01, PAL), world 'Metroid1.pak' with 28 areas, read in 133 ms
+[SomniumMetroid] Scripts: area 0 'Exterior Docking Hangar': 771 entities, 135 models placed
+[SomniumMetroid] World: area 0 'Exterior Docking Hangar' ready: 544 models, 4456 collision triangles, 1028 script objects, 157 new textures, 39 actor models; parsed in 247 ms, built over 210 ms
+[SomniumMetroid] Visors: thermal palette 16 colours, x-ray palette 256 colours
+[SomniumMetroid] Sound: 72 sound groups, 3173 effects, lookup 5245
+[SomniumMetroid] Start: area 0 'Exterior Docking Hangar', spawn at game (-87.86, 224.89, 0.50) facing -179 deg
+[SomniumMetroid] Samus: energy 99, missiles 15/15, beams Power Ice Wave Plasma (all beams and visors unlocked for testing)
+[SomniumMetroid] Gun: GunRes names 43; Power CMDL 19AE626C shot 120 u/s (Power: 20 animations (18 ANIMs), 50 bones); Ice CMDL 19AE626C shot 48 u/s (Ice: 20 animations (20 ANIMs), 50 bones); Wave CMDL 19AE626C shot 120 u/s (Wave: 20 animations (20 ANIMs), 50 bones); Plasma CMDL 19AE626C shot 120 u/s (Plasma: 20 animations (20 ANIMs), 50 bones)
+[SomniumMetroid] Gun effects: 30 textures, 10 models
+[SomniumMetroid] HUD: built from the game's frames (7 frames: FRME_BaseHud, FRME_CombatHud, FRME_Helmet, FRME_ScanHud, FRME_ThermalHud, FRME_XRayHudNew, FRME_ScanHudFlat)
+[SomniumMetroid] Reticle: the game's combat reticle (13 models, 14 charge ticks, blends SrcAlpha+One) for the monitor view
+[SomniumMetroid] Tablet: searching for the Somnium tablet (the "METROID PRIME" app goes on its home screen; VR: tap Y, monitor: Tab).
+[SomniumMetroid] Start: player placed at (-57.99, 1000.38, 148.42) (editor: CharacterController 'PlayerController' moved)
+[SomniumMetroid] World: sky A12B691E built (model radius 68 m, drawn out at 0.8 x the far plane, after the opaque world)
+LAB: game running: area 0 'Exterior Docking Hangar'
+[SomniumMetroid] Scripts: area 1 'Air Lock': 118 entities, 21 models placed
+[SomniumMetroid] World: area 1 'Air Lock' ready: 79 models, 424 collision triangles, 137 script objects, 14 new textures, 8 actor models; parsed in 6 ms, built over 14 ms
+LAB: start: entities 891 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 48, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: start: effects 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1; live 3, enemies alive 0, generator copies 0, cinematic shots 1 (one running: 'Camera1' 0.1/53.0 s)
+[SomniumMetroid] Music: /audio/int_introcinemaL.dsp|/audio/int_introcinemaR.dsp decoded (3156899 samples at 32000 Hz, stereo)
+[SomniumMetroid] Music: playing /audio/int_introcinemaL.dsp|/audio/int_introcinemaR.dsp (once)
+LAB: wrote scripts_view_00.png
+LAB: wrote scripts_view_01.png
+LAB: wrote scripts_view_02.png
+LAB: wrote scripts_view_03.png
+LAB: after 10 s: entities 891 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 48, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: after 10 s: effects 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1; live 3, enemies alive 0, generator copies 0, cinematic shots 1 (one running: 'Camera1' 10.1/53.0 s)
+[SomniumMetroid] Music: /audio/vox_x_introcine_00.dsp decoded (978582 samples at 32000 Hz, mono)
+[SomniumMetroid] Music: playing /audio/vox_x_introcine_00.dsp (once)
+LAB: wrote scripts_view_04.png
+LAB: wrote scripts_view_05.png
+LAB: wrote scripts_view_06.png
+[SomniumMetroid] Tablet: not linked after 20 s - no transform with a TabletControl component, and none named 'Tablet.XR(...' or 'Tablet.NonXR(...', in MasterScene (NOT loaded) or 1 other loaded scene(s); 'Simulator' objects (remote tablets) and the world's own subtrees skipped; still searching every 0.5 s; 41 searches, slowest 3.7 ms. The game plays with the options of options.txt.
+LAB: after 20 s: entities 891 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 48, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: after 20 s: effects 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1; live 3, enemies alive 0, generator copies 0, cinematic shots 1 (one running: 'Camera1' 20.1/53.0 s)
+LAB: wrote scripts_view_07.png
+LAB: wrote scripts_view_08.png
+LAB: wrote scripts_view_09.png
+LAB: after 30 s: entities 892 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 49, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: after 30 s: effects 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1; live 3, enemies alive 0, generator copies 1, cinematic shots 1 (one running: 'Camera1' 30.1/53.0 s)
+LAB: wrote scripts_view_10.png
+LAB: wrote scripts_view_11.png
+LAB: wrote scripts_view_12.png
+LAB: wrote scripts_view_13.png
+LAB: after 40 s: entities 892 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 49, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: after 40 s: effects 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1; live 3, enemies alive 0, generator copies 1, cinematic shots 1 (one running: 'Camera1' 40.2/53.0 s)
+LAB: wrote scripts_view_14.png
+LAB: wrote scripts_view_15.png
+LAB: wrote scripts_view_16.png
+LAB: after 50 s: entities 892 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 49, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: after 50 s: effects 1FFF447F x2, 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1, F7DCC380 x1, DB650171 x1, 1AEBDEB1 x1, 33D0CB32 x1; live 9, enemies alive 0, generator copies 1, cinematic shots 1 (one running: 'Camera1' 50.2/53.0 s)
+LAB: wrote scripts_view_17.png
+LAB: wrote scripts_view_18.png
+LAB: wrote scripts_view_19.png
+LAB: wrote scripts_view_20.png
+LAB: after 60 s: entities 892 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 49, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: after 60 s: effects 43BF7C5A x4, ADBCD475 x2, 1FFF447F x2, 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1, F7DCC380 x1, DB650171 x1; live 15, enemies alive 0, generator copies 1, cinematic shots 2 (one running: 'Camera3' 7.2/14.0 s)
+LAB: wrote scripts_view_21.png
+LAB: wrote scripts_view_22.png
+LAB: wrote scripts_view_23.png
+LAB: wrote scripts_view_24.png
+LAB: after 70 s: entities 892 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 49, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: after 70 s: effects 66916F48 x6, 183E047C x4, 43BF7C5A x4, 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1, F7DCC380 x1, DB650171 x1; live 21, enemies alive 0, generator copies 1, cinematic shots 3 (one running: 'Camera4' 3.2/7.0 s)
+LAB: wrote scripts_view_25.png
+LAB: wrote scripts_view_26.png
+LAB: wrote scripts_view_27.png
+LAB: wrote scripts_view_28.png
+LAB: wrote scripts_view_29.png
+LAB: after 80 s: entities 892 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 49, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: after 80 s: effects 6E3EA581 x4, D9B0DBBC x2, 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1, F7DCC380 x1, DB650171 x1, 1AEBDEB1 x1; live 13, enemies alive 0, generator copies 1, cinematic shots 6 (one running: 'Camera7' 1.8/3.0 s)
+LAB: wrote scripts_view_30.png
+LAB: wrote scripts_view_31.png
+LAB: wrote scripts_view_32.png
+LAB: wrote scripts_view_33.png
+LAB: wrote scripts_view_34.png
+LAB: after 90 s: entities 892 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 49, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: after 90 s: effects D9B0DBBC x2, 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1, 694DA71D x1, DB650171 x1, F2E8EB72 x1, 33D0CB32 x1; live 9, enemies alive 0, generator copies 1, cinematic shots 9 (one running: 'Camera4' 3.2/3.9 s)
+LAB: wrote scripts_view_35.png
+LAB: wrote scripts_view_36.png
+LAB: wrote scripts_view_37.png
+LAB: wrote scripts_view_38.png
+LAB: after 100 s: entities 892 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 49, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
+LAB: after 100 s: effects 18F7A232P x1, 0F21403BPOH x1, 4CE91ECBPOH x1; live 3, enemies alive 0, generator copies 1, cinematic shots 10 (one running: 'Camera12' 9.4/17.7 s)
+[SomniumMetroid] Music: /audio/int_toujouL.dsp|/audio/int_toujouR.dsp decoded (298842 samples at 32000 Hz, stereo)
+[SomniumMetroid] Music: playing /audio/int_toujouL.dsp|/audio/int_toujouR.dsp (once)
+LAB: wrote scripts_view_39.png
+LAB: wrote scripts_view_40.png
+LAB: after 110 s: entities 892 - MpActorEntity 120, MpActorKeyframeEntity 2, MpActorRotateEntity 7, MpAnimActorEntity 24, MpCinematicCamera 11, MpCounterEntity 4, MpDamageableTriggerEntity 17, MpDoorEntity 5, MpEffectEntity 20, MpEntity 71, MpGeneratorEntity 14, MpHudMemoEntity 16, MpMemoryRelayEntity 10, MpMovingPlatform 7, MpMusicEntity 4, MpPlayerActorEntity 3, MpRelayEntity 38, MpScanPointEntity 31, MpShakerEntity 3, MpSoundEntity 49, MpSpawnEntity 3, MpSpecialFunctionEntity 11, MpSwitchEntity 1, MpTimerEntity 166, MpTriggerEntity 124, MpWaypointEntity 131
